@@ -23,16 +23,8 @@ query ProfileMetrics($login: String!, $from60: DateTime!, $from30: DateTime!, $t
     websiteUrl
     followers { totalCount }
     following { totalCount }
-    repositories(first: 6, ownerAffiliations: OWNER, orderBy: { field: UPDATED_AT, direction: DESC }, privacy: PUBLIC) {
+    repositories(ownerAffiliations: OWNER, privacy: PUBLIC) {
       totalCount
-      nodes {
-        name
-        url
-        stargazerCount
-        forkCount
-        primaryLanguage { name color }
-        updatedAt
-      }
     }
     contributionsCollection {
       totalCommitContributions
@@ -40,6 +32,32 @@ query ProfileMetrics($login: String!, $from60: DateTime!, $from30: DateTime!, $t
       totalPullRequestReviewContributions
       totalIssueContributions
       totalRepositoriesWithContributedCommits
+      commitContributionsByRepository(maxRepositories: 25) {
+        contributions { totalCount }
+        repository {
+          name
+          nameWithOwner
+          url
+          isPrivate
+          stargazerCount
+          forkCount
+          primaryLanguage { name color }
+          updatedAt
+        }
+      }
+      pullRequestContributionsByRepository(maxRepositories: 25) {
+        contributions { totalCount }
+        repository {
+          name
+          nameWithOwner
+          url
+          isPrivate
+          stargazerCount
+          forkCount
+          primaryLanguage { name color }
+          updatedAt
+        }
+      }
     }
     recentContributions: contributionsCollection(from: $from60, to: $to) {
       contributionCalendar {
@@ -122,19 +140,7 @@ const metrics = {
     last60Days: extractDailyContributions(user.recentContributions.contributionCalendar, 60),
     last7Days: extractDailyContributions(user.recentContributions.contributionCalendar, 7),
   },
-  recentPublicRepos: user.repositories.nodes.map((repo) => ({
-    name: repo.name,
-    url: repo.url,
-    stargazerCount: repo.stargazerCount,
-    forkCount: repo.forkCount,
-    primaryLanguage: repo.primaryLanguage
-      ? {
-          name: repo.primaryLanguage.name,
-          color: repo.primaryLanguage.color,
-        }
-      : null,
-    updatedAt: repo.updatedAt,
-  })),
+  recentPublicRepos: buildRecentPublicRepos(user.contributionsCollection),
 };
 
 await mkdir(outDir, { recursive: true });
@@ -150,16 +156,16 @@ function renderSvg(data) {
     .slice(0, 3)
     .map((repo) => {
       const language = repo.primaryLanguage?.name ?? "Mixed";
-      return `${repo.name} (${language})`;
+      return `${repo.nameWithOwner ?? repo.name} (${language})`;
     })
     .join(" · ");
 
   const cards = [
-    ["Commits", c.totalCommitContributions, c30.totalCommitContributions],
-    ["PRs opened", c.totalPullRequestContributions, c30.totalPullRequestContributions],
-    ["PR reviews", c.totalPullRequestReviewContributions, c30.totalPullRequestReviewContributions],
+    ["commits", c.totalCommitContributions, c30.totalCommitContributions],
+    ["prs opened", c.totalPullRequestContributions, c30.totalPullRequestContributions],
+    ["pr reviews", c.totalPullRequestReviewContributions, c30.totalPullRequestReviewContributions],
     [
-      "Repos contributed",
+      "repos contributed",
       c.totalRepositoriesWithContributedCommits,
       c30.totalRepositoriesWithContributedCommits,
     ],
@@ -171,11 +177,16 @@ function renderSvg(data) {
       const y = index < 2 ? 88 : 158;
       return `
         <g transform="translate(${x} ${y})">
-          <rect class="subtle-card" width="252" height="58" rx="6"/>
-          <text class="muted" x="14" y="23" font-size="13">${escapeXml(label)}</text>
-          <text class="fg" x="238" y="24" text-anchor="end" font-size="18" font-weight="600">${formatNumber(value)}</text>
-          <text class="muted" x="14" y="43" font-size="11">last 30d</text>
-          <text class="muted" x="238" y="43" text-anchor="end" font-size="11">${formatNumber(recentValue)}</text>
+          <rect class="stat-shell" width="252" height="58" rx="6"/>
+          <rect class="stat-label-band" x="1" y="1" width="151" height="26" rx="5"/>
+          <path class="stat-label-band" d="M146 1H152V27H146Z"/>
+          <rect class="stat-value-band" x="152" y="1" width="99" height="26" rx="5"/>
+          <path class="stat-value-band" d="M152 1H158V27H152Z"/>
+          <text class="muted" x="16" y="18" font-size="12" font-weight="600">${escapeXml(label)}</text>
+          <text class="stat-value-text" x="236" y="19" text-anchor="end" font-size="13" font-weight="700">${formatNumber(value)}</text>
+          <line class="rule" x1="1" y1="32" x2="251" y2="32"/>
+          <text class="muted" x="16" y="48" font-size="11">last 30 days</text>
+          <text class="fg" x="236" y="49" text-anchor="end" font-size="12" font-weight="600">${formatNumber(recentValue)}</text>
         </g>`;
     })
     .join("");
@@ -211,6 +222,10 @@ function renderSvg(data) {
     .frame { fill: none; stroke: #d0d7de; }
     .chart-card { fill: #ffffff; stroke: #d0d7de; }
     .subtle-card { fill: #f6f8fa; stroke: #d0d7de; }
+    .stat-shell { fill: #ffffff; stroke: #d0d7de; }
+    .stat-label-band { fill: #f6f8fa; }
+    .stat-value-band { fill: #ddf4ff; }
+    .stat-value-text { fill: #0969da; }
     .fg { fill: #24292f; }
     .muted { fill: #57606a; }
     .rule { stroke: #d8dee4; }
@@ -221,6 +236,10 @@ function renderSvg(data) {
       .frame { stroke: #30363d; }
       .chart-card { fill: #0d1117; stroke: #30363d; }
       .subtle-card { fill: #161b22; stroke: #30363d; }
+      .stat-shell { fill: #0d1117; stroke: #30363d; }
+      .stat-label-band { fill: #161b22; }
+      .stat-value-band { fill: #0d419d; fill-opacity: 0.24; }
+      .stat-value-text { fill: #58a6ff; }
       .fg { fill: #c9d1d9; }
       .muted { fill: #8b949e; }
       .rule { stroke: #30363d; }
@@ -319,6 +338,54 @@ function extractDailyContributions(calendar, count) {
     .sort((a, b) => a.date.localeCompare(b.date));
 
   return days.slice(-count);
+}
+
+function buildRecentPublicRepos(contributions) {
+  const byUrl = new Map();
+  addContributionRepos(byUrl, contributions.commitContributionsByRepository, "commits");
+  addContributionRepos(byUrl, contributions.pullRequestContributionsByRepository, "pullRequests");
+
+  return [...byUrl.values()]
+    .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
+    .slice(0, 6)
+    .map(({ contributionCounts, ...repo }) => ({
+      ...repo,
+      contributionCounts,
+    }));
+}
+
+function addContributionRepos(byUrl, repoContributions, key) {
+  for (const item of repoContributions) {
+    const repo = item.repository;
+    if (repo.isPrivate || item.contributions.totalCount <= 0) {
+      continue;
+    }
+
+    const current = byUrl.get(repo.url) ?? {
+      name: repo.name,
+      nameWithOwner: repo.nameWithOwner,
+      url: repo.url,
+      stargazerCount: repo.stargazerCount,
+      forkCount: repo.forkCount,
+      primaryLanguage: repo.primaryLanguage
+        ? {
+            name: repo.primaryLanguage.name,
+            color: repo.primaryLanguage.color,
+          }
+        : null,
+      updatedAt: repo.updatedAt,
+      contributionCounts: {
+        commits: 0,
+        pullRequests: 0,
+      },
+    };
+
+    current.contributionCounts[key] += item.contributions.totalCount;
+    if (new Date(repo.updatedAt) > new Date(current.updatedAt)) {
+      current.updatedAt = repo.updatedAt;
+    }
+    byUrl.set(repo.url, current);
+  }
 }
 
 function sumContributions(days) {
