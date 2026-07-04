@@ -1,0 +1,11 @@
+{
+  "name": "jatmn-profile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first GitHub profile README and metrics generator for jatmn.",
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-profile-metrics.mjs",
+    "check": "node --check scripts/update-profile-metrics.mjs"
+  }
+}
