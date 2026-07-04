@@ -27,13 +27,3 @@ Builder, reviewer, and open-source tinkerer in SoCal. I spend most of my time ar
   <img alt="Lua" src="https://img.shields.io/badge/Lua-000080?style=flat-square&logo=lua&logoColor=white">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088ff?style=flat-square&logo=githubactions&logoColor=white">
 </p>
-
-## Keeping This Fresh
-
-This profile is designed to be local-first. Run the updater whenever you want current stats:
-
-```bash
-GITHUB_TOKEN=... npm run update
-```
-
-The included GitHub Actions workflow can refresh `assets/profile-metrics.svg` and `assets/profile-metrics.json` on a schedule after this is pushed to a `jatmn/jatmn` profile repository. Add a `PROFILE_TOKEN` secret if you want aggregate contribution totals to include private activity visible to your account. Repository details are intentionally public-only and contribution-filtered, so private repo names, private URLs, PR titles, private org names, and public repos with no commits or PRs from me are not written to the generated files.
