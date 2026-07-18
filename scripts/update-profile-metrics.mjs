@@ -32,32 +32,6 @@ query ProfileMetrics($login: String!, $from60: DateTime!, $from30: DateTime!, $t
       totalPullRequestReviewContributions
       totalIssueContributions
       totalRepositoriesWithContributedCommits
-      commitContributionsByRepository(maxRepositories: 6) {
-        contributions { totalCount }
-        repository {
-          name
-          nameWithOwner
-          url
-          isPrivate
-          stargazerCount
-          forkCount
-          primaryLanguage { name color }
-          updatedAt
-        }
-      }
-      pullRequestContributionsByRepository(maxRepositories: 6) {
-        contributions { totalCount }
-        repository {
-          name
-          nameWithOwner
-          url
-          isPrivate
-          stargazerCount
-          forkCount
-          primaryLanguage { name color }
-          updatedAt
-        }
-      }
     }
     recentContributions: contributionsCollection(from: $from60, to: $to) {
       contributionCalendar {
@@ -123,7 +97,7 @@ const metrics = {
     last60Days: extractDailyContributions(user.recentContributions.contributionCalendar, 60),
     last7Days: extractDailyContributions(user.recentContributions.contributionCalendar, 7),
   },
-  recentPublicRepos: buildRecentPublicRepos(user.contributionsCollection),
+  recentPublicRepos: [],
 };
 
 await mkdir(outDir, { recursive: true });
@@ -188,7 +162,7 @@ function renderSvg(data) {
       const language = repo.primaryLanguage?.name ?? "Mixed";
       return `${repo.nameWithOwner ?? repo.name} (${language})`;
     })
-    .join(" · ");
+    .join(" · ") || "No recent public work available";
 
   const cards = [
     ["commits", c.totalCommitContributions, c30.totalCommitContributions],
