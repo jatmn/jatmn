@@ -2,15 +2,15 @@ import { mkdir, writeFile } from "node:fs/promises";
 import process from "node:process";
 
 const login = process.env.GITHUB_LOGIN || "jatmn";
-const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+const tokens = [process.env.PROFILE_TOKEN, process.env.GITHUB_TOKEN, process.env.GH_TOKEN].filter(Boolean);
 const outDir = new URL("../assets/", import.meta.url);
 const now = new Date();
 const from60 = startOfUtcDay(daysAgo(59));
 const from30 = startOfUtcDay(daysAgo(29));
 const to = now.toISOString();
 
-if (!token) {
-  console.error("Set GITHUB_TOKEN or GH_TOKEN before running the profile metrics updater.");
+if (!tokens.length) {
+  console.error("Set PROFILE_TOKEN, GITHUB_TOKEN, or GH_TOKEN before running the profile metrics updater.");
   process.exit(1);
 }
 
@@ -32,7 +32,7 @@ query ProfileMetrics($login: String!, $from60: DateTime!, $from30: DateTime!, $t
       totalPullRequestReviewContributions
       totalIssueContributions
       totalRepositoriesWithContributedCommits
-      commitContributionsByRepository(maxRepositories: 25) {
+      commitContributionsByRepository(maxRepositories: 6) {
         contributions { totalCount }
         repository {
           name
@@ -45,7 +45,7 @@ query ProfileMetrics($login: String!, $from60: DateTime!, $from30: DateTime!, $t
           updatedAt
         }
       }
-      pullRequestContributionsByRepository(maxRepositories: 25) {
+      pullRequestContributionsByRepository(maxRepositories: 6) {
         contributions { totalCount }
         repository {
           name
@@ -79,24 +79,7 @@ query ProfileMetrics($login: String!, $from60: DateTime!, $from30: DateTime!, $t
   }
 }`;
 
-const response = await fetch("https://api.github.com/graphql", {
-  method: "POST",
-  headers: {
-    authorization: `Bearer ${token}`,
-    "content-type": "application/json",
-    "user-agent": "jatmn-profile-metrics",
-  },
-  body: JSON.stringify({ query, variables: { login, from60, from30, to } }),
-});
-
-if (!response.ok) {
-  throw new Error(`GitHub GraphQL request failed: ${response.status} ${response.statusText}`);
-}
-
-const payload = await response.json();
-if (payload.errors?.length) {
-  throw new Error(payload.errors.map((error) => error.message).join("; "));
-}
+const { payload, contributionTotalsMayIncludePrivateActivity } = await fetchProfileMetrics(tokens);
 
 const user = payload.data.user;
 if (!user) {
@@ -113,7 +96,7 @@ const metrics = {
   publicRepos: user.repositories.totalCount,
   updatedAt: new Date().toISOString(),
   privacy: {
-    contributionTotalsMayIncludePrivateActivity: true,
+    contributionTotalsMayIncludePrivateActivity,
     repositoryDetailsArePublicOnly: true,
   },
   contributions: {
@@ -147,6 +130,53 @@ await mkdir(outDir, { recursive: true });
 await writeFile(new URL("profile-metrics.json", outDir), `${JSON.stringify(metrics, null, 2)}\n`);
 await writeFile(new URL("profile-metrics.svg", outDir), renderSvg(metrics));
 
+async function fetchProfileMetrics(candidateTokens) {
+  let lastFailure;
+
+  for (const [index, token] of candidateTokens.entries()) {
+    const response = await fetch("https://api.github.com/graphql", {
+      method: "POST",
+      headers: {
+        authorization: `Bearer ${token}`,
+        "content-type": "application/json",
+        "user-agent": "jatmn-profile-metrics",
+      },
+      body: JSON.stringify({ query, variables: { login, from60, from30, to } }),
+    });
+
+    if (!response.ok) {
+      lastFailure = `GitHub GraphQL request failed: ${response.status} ${response.statusText}`;
+      if (index < candidateTokens.length - 1 && isFallbackEligibleFailure(response.status)) {
+        continue;
+      }
+      throw new Error(lastFailure);
+    }
+
+    const payload = await response.json();
+    if (!payload.errors?.length) {
+      return {
+        payload,
+        contributionTotalsMayIncludePrivateActivity: token === process.env.PROFILE_TOKEN,
+      };
+    }
+
+    lastFailure = payload.errors.map((error) => error.message).join("; ");
+    if (index < candidateTokens.length - 1 && isFallbackEligibleFailure(lastFailure)) {
+      continue;
+    }
+    throw new Error(lastFailure);
+  }
+
+  throw new Error(lastFailure ?? "GitHub GraphQL request failed without a response.");
+}
+
+function isFallbackEligibleFailure(statusOrMessage) {
+  return (
+    statusOrMessage === 401 ||
+    statusOrMessage === 403 ||
+    /bad credentials|resource not accessible by (integration|personal access token)|resource limits for this query exceeded|rate limit/i.test(String(statusOrMessage))
+  );
+}
 function renderSvg(data) {
   const c = data.contributions;
   const c30 = data.contributionWindows.last30Days;
