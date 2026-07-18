@@ -48,10 +48,10 @@
           <rect class="stat-value-band" x="152" y="1" width="99" height="26" rx="5"/>
           <path class="stat-value-band" d="M152 1H158V27H152Z"/>
           <text class="muted" x="16" y="18" font-size="12" font-weight="600">commits</text>
-          <text class="stat-value-text" x="236" y="19" text-anchor="end" font-size="13" font-weight="700">134</text>
+          <text class="stat-value-text" x="236" y="19" text-anchor="end" font-size="13" font-weight="700">135</text>
           <line class="rule" x1="1" y1="32" x2="251" y2="32"/>
           <text class="muted" x="16" y="48" font-size="11">last 30 days</text>
-          <text class="fg" x="236" y="49" text-anchor="end" font-size="12" font-weight="600">72</text>
+          <text class="fg" x="236" y="49" text-anchor="end" font-size="12" font-weight="600">73</text>
         </g>
         <g transform="translate(300 88)">
           <rect class="stat-shell" width="252" height="58" rx="6"/>
@@ -93,7 +93,7 @@
   <g transform="translate(24 240)">
     <rect class="chart-card" width="528" height="152" rx="6"/>
     <text class="fg" x="12" y="19" font-size="13" font-weight="600">Daily contributions, last 60 days</text>
-    <text class="muted" x="516" y="19" text-anchor="end" font-size="12">1,225 total · 34 today</text>
+    <text class="muted" x="516" y="19" text-anchor="end" font-size="12">1,226 total · 35 today</text>
     
     <line class="rule" x1="42" y1="30" x2="512" y2="30"/>
     <text class="muted" x="34" y="34" text-anchor="end" font-size="10">59</text>
@@ -101,14 +101,14 @@
     <text class="muted" x="34" y="79" text-anchor="end" font-size="10">30</text>
     <line class="rule" x1="42" y1="120" x2="512" y2="120"/>
     <text class="muted" x="34" y="124" text-anchor="end" font-size="10">0</text>
-    <polygon class="chart-area" points="42,120 42,92.54 49.97,100.17 57.93,101.69 65.9,87.97 73.86,97.12 81.83,84.92 89.8,103.22 97.76,101.69 105.73,116.95 113.69,112.37 121.66,81.86 129.63,81.86 137.59,86.44 145.56,84.92 153.53,98.64 161.49,87.97 169.46,97.12 177.42,100.17 185.39,66.61 193.36,91.02 201.32,30 209.29,83.39 217.25,100.17 225.22,109.32 233.19,66.61 241.15,100.17 249.12,104.75 257.08,74.24 265.05,97.12 273.02,68.14 280.98,116.95 288.95,115.42 296.92,101.69 304.88,95.59 312.85,110.85 320.81,78.81 328.78,91.02 336.75,94.07 344.71,94.07 352.68,95.59 360.64,92.54 368.61,106.27 376.58,80.34 384.54,106.27 392.51,100.17 400.47,48.31 408.44,65.08 416.41,87.97 424.37,48.31 432.34,30 440.31,81.86 448.27,89.49 456.24,106.27 464.2,95.59 472.17,101.69 480.14,103.22 488.1,75.76 496.07,81.86 504.03,58.98 512,68.14 512,120"/>
-    <polyline class="chart-line" points="42,92.54 49.97,100.17 57.93,101.69 65.9,87.97 73.86,97.12 81.83,84.92 89.8,103.22 97.76,101.69 105.73,116.95 113.69,112.37 121.66,81.86 129.63,81.86 137.59,86.44 145.56,84.92 153.53,98.64 161.49,87.97 169.46,97.12 177.42,100.17 185.39,66.61 193.36,91.02 201.32,30 209.29,83.39 217.25,100.17 225.22,109.32 233.19,66.61 241.15,100.17 249.12,104.75 257.08,74.24 265.05,97.12 273.02,68.14 280.98,116.95 288.95,115.42 296.92,101.69 304.88,95.59 312.85,110.85 320.81,78.81 328.78,91.02 336.75,94.07 344.71,94.07 352.68,95.59 360.64,92.54 368.61,106.27 376.58,80.34 384.54,106.27 392.51,100.17 400.47,48.31 408.44,65.08 416.41,87.97 424.37,48.31 432.34,30 440.31,81.86 448.27,89.49 456.24,106.27 464.2,95.59 472.17,101.69 480.14,103.22 488.1,75.76 496.07,81.86 504.03,58.98 512,68.14" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon class="chart-area" points="42,120 42,92.54 49.97,100.17 57.93,101.69 65.9,87.97 73.86,97.12 81.83,84.92 89.8,103.22 97.76,101.69 105.73,116.95 113.69,112.37 121.66,81.86 129.63,81.86 137.59,86.44 145.56,84.92 153.53,98.64 161.49,87.97 169.46,97.12 177.42,100.17 185.39,66.61 193.36,91.02 201.32,30 209.29,83.39 217.25,100.17 225.22,109.32 233.19,66.61 241.15,100.17 249.12,104.75 257.08,74.24 265.05,97.12 273.02,68.14 280.98,116.95 288.95,115.42 296.92,101.69 304.88,95.59 312.85,110.85 320.81,78.81 328.78,91.02 336.75,94.07 344.71,94.07 352.68,95.59 360.64,92.54 368.61,106.27 376.58,80.34 384.54,106.27 392.51,100.17 400.47,48.31 408.44,65.08 416.41,87.97 424.37,48.31 432.34,30 440.31,81.86 448.27,89.49 456.24,106.27 464.2,95.59 472.17,101.69 480.14,103.22 488.1,75.76 496.07,81.86 504.03,58.98 512,66.61 512,120"/>
+    <polyline class="chart-line" points="42,92.54 49.97,100.17 57.93,101.69 65.9,87.97 73.86,97.12 81.83,84.92 89.8,103.22 97.76,101.69 105.73,116.95 113.69,112.37 121.66,81.86 129.63,81.86 137.59,86.44 145.56,84.92 153.53,98.64 161.49,87.97 169.46,97.12 177.42,100.17 185.39,66.61 193.36,91.02 201.32,30 209.29,83.39 217.25,100.17 225.22,109.32 233.19,66.61 241.15,100.17 249.12,104.75 257.08,74.24 265.05,97.12 273.02,68.14 280.98,116.95 288.95,115.42 296.92,101.69 304.88,95.59 312.85,110.85 320.81,78.81 328.78,91.02 336.75,94.07 344.71,94.07 352.68,95.59 360.64,92.54 368.61,106.27 376.58,80.34 384.54,106.27 392.51,100.17 400.47,48.31 408.44,65.08 416.41,87.97 424.37,48.31 432.34,30 440.31,81.86 448.27,89.49 456.24,106.27 464.2,95.59 472.17,101.69 480.14,103.22 488.1,75.76 496.07,81.86 504.03,58.98 512,66.61" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     <text class="muted" x="42" y="142" text-anchor="middle" font-size="10">5/20</text><text class="muted" x="273.02" y="142" text-anchor="middle" font-size="10">6/18</text><text class="muted" x="512" y="142" text-anchor="middle" font-size="10">7/18</text>
   </g>
   <g transform="translate(24 416)">
     <rect class="chart-card" width="528" height="152" rx="6"/>
     <text class="fg" x="12" y="19" font-size="13" font-weight="600">Daily contributions, last 7 days</text>
-    <text class="muted" x="516" y="19" text-anchor="end" font-size="12">167 total · 34 today</text>
+    <text class="muted" x="516" y="19" text-anchor="end" font-size="12">168 total · 35 today</text>
     
     <line class="rule" x1="42" y1="30" x2="512" y2="30"/>
     <text class="muted" x="34" y="34" text-anchor="end" font-size="10">40</text>
@@ -116,8 +116,8 @@
     <text class="muted" x="34" y="79" text-anchor="end" font-size="10">20</text>
     <line class="rule" x1="42" y1="120" x2="512" y2="120"/>
     <text class="muted" x="34" y="124" text-anchor="end" font-size="10">0</text>
-    <polygon class="chart-area" points="42,120 42,84 120.33,93 198.67,95.25 277,54.75 355.33,63.75 433.67,30 512,43.5 512,120"/>
-    <polyline class="chart-line" points="42,84 120.33,93 198.67,95.25 277,54.75 355.33,63.75 433.67,30 512,43.5" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon class="chart-area" points="42,120 42,84 120.33,93 198.67,95.25 277,54.75 355.33,63.75 433.67,30 512,41.25 512,120"/>
+    <polyline class="chart-line" points="42,84 120.33,93 198.67,95.25 277,54.75 355.33,63.75 433.67,30 512,41.25" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     <text class="muted" x="42" y="142" text-anchor="middle" font-size="10">7/12</text><text class="muted" x="120.33" y="142" text-anchor="middle" font-size="10">7/13</text><text class="muted" x="198.67" y="142" text-anchor="middle" font-size="10">7/14</text><text class="muted" x="277" y="142" text-anchor="middle" font-size="10">7/15</text><text class="muted" x="355.33" y="142" text-anchor="middle" font-size="10">7/16</text><text class="muted" x="433.67" y="142" text-anchor="middle" font-size="10">7/17</text><text class="muted" x="512" y="142" text-anchor="middle" font-size="10">7/18</text>
   </g>
   <line class="rule" x1="24" y1="644" x2="552" y2="644"/>
