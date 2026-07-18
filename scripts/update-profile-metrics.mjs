@@ -14,8 +14,8 @@ if (!token) {
   process.exit(1);
 }
 
-const query = `
-query ProfileMetrics($login: String!, $from60: DateTime!, $from30: DateTime!, $to: DateTime!) {
+const profileQuery = `
+query Profile($login: String!) {
   user(login: $login) {
     login
     name
@@ -23,53 +23,14 @@ query ProfileMetrics($login: String!, $from60: DateTime!, $from30: DateTime!, $t
     websiteUrl
     followers { totalCount }
     following { totalCount }
-    repositories(ownerAffiliations: OWNER, privacy: PUBLIC) {
-      totalCount
-    }
+    repositories(ownerAffiliations: OWNER, privacy: PUBLIC) { totalCount }
+  }
+}`;
+
+const contributionTotalsQuery = `
+query ContributionTotals($login: String!) {
+  user(login: $login) {
     contributionsCollection {
-      totalCommitContributions
-      totalPullRequestContributions
-      totalPullRequestReviewContributions
-      totalIssueContributions
-      totalRepositoriesWithContributedCommits
-      commitContributionsByRepository(maxRepositories: 25) {
-        contributions { totalCount }
-        repository {
-          name
-          nameWithOwner
-          url
-          isPrivate
-          stargazerCount
-          forkCount
-          primaryLanguage { name color }
-          updatedAt
-        }
-      }
-      pullRequestContributionsByRepository(maxRepositories: 25) {
-        contributions { totalCount }
-        repository {
-          name
-          nameWithOwner
-          url
-          isPrivate
-          stargazerCount
-          forkCount
-          primaryLanguage { name color }
-          updatedAt
-        }
-      }
-    }
-    recentContributions: contributionsCollection(from: $from60, to: $to) {
-      contributionCalendar {
-        weeks {
-          contributionDays {
-            date
-            contributionCount
-          }
-        }
-      }
-    }
-    last30Contributions: contributionsCollection(from: $from30, to: $to) {
       totalCommitContributions
       totalPullRequestContributions
       totalPullRequestReviewContributions
@@ -79,26 +40,93 @@ query ProfileMetrics($login: String!, $from60: DateTime!, $from30: DateTime!, $t
   }
 }`;
 
-const response = await fetch("https://api.github.com/graphql", {
-  method: "POST",
-  headers: {
-    authorization: `Bearer ${token}`,
-    "content-type": "application/json",
-    "user-agent": "jatmn-profile-metrics",
+const contributionCalendarQuery = `
+query ContributionCalendar($login: String!, $from: DateTime!, $to: DateTime!) {
+  user(login: $login) {
+    recentContributions: contributionsCollection(from: $from, to: $to) {
+      contributionCalendar { weeks { contributionDays { date contributionCount } } }
+    }
+  }
+}`;
+
+const contributionWindowQuery = `
+query ContributionWindow($login: String!, $from: DateTime!, $to: DateTime!) {
+  user(login: $login) {
+    last30Contributions: contributionsCollection(from: $from, to: $to) {
+      totalCommitContributions
+      totalPullRequestContributions
+      totalPullRequestReviewContributions
+      totalIssueContributions
+      totalRepositoriesWithContributedCommits
+    }
+  }
+}`;
+
+const commitReposQuery = `
+query CommitRepos($login: String!) {
+  user(login: $login) {
+    contributionsCollection {
+      commitContributionsByRepository(maxRepositories: 8) {
+        contributions { totalCount }
+        repository { name nameWithOwner url isPrivate stargazerCount forkCount primaryLanguage { name color } updatedAt }
+      }
+    }
+  }
+}`;
+
+const pullRequestReposQuery = `
+query PullRequestRepos($login: String!) {
+  user(login: $login) {
+    contributionsCollection {
+      pullRequestContributionsByRepository(maxRepositories: 8) {
+        contributions { totalCount }
+        repository { name nameWithOwner url isPrivate stargazerCount forkCount primaryLanguage { name color } updatedAt }
+      }
+    }
+  }
+}`;
+
+const profile = await graphql(profileQuery, { login });
+const totals = await graphql(contributionTotalsQuery, { login });
+const calendar = await graphql(contributionCalendarQuery, { login, from: from60, to });
+const window = await graphql(contributionWindowQuery, { login, from: from30, to });
+const commitRepos = await graphql(commitReposQuery, { login });
+const pullRequestRepos = await graphql(pullRequestReposQuery, { login });
+
+const user = profile.user && {
+  ...profile.user,
+  contributionsCollection: {
+    ...totals.user?.contributionsCollection,
+    commitContributionsByRepository: commitRepos.user?.contributionsCollection.commitContributionsByRepository ?? [],
+    pullRequestContributionsByRepository:
+      pullRequestRepos.user?.contributionsCollection.pullRequestContributionsByRepository ?? [],
   },
-  body: JSON.stringify({ query, variables: { login, from60, from30, to } }),
-});
+  recentContributions: calendar.user?.recentContributions,
+  last30Contributions: window.user?.last30Contributions,
+};
 
-if (!response.ok) {
-  throw new Error(`GitHub GraphQL request failed: ${response.status} ${response.statusText}`);
+async function graphql(query, variables) {
+  const response = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      authorization: `Bearer ${token}`,
+      "content-type": "application/json",
+      "user-agent": "jatmn-profile-metrics",
+    },
+    body: JSON.stringify({ query, variables }),
+  });
+
+  if (!response.ok) {
+    throw new Error(`GitHub GraphQL request failed: ${response.status} ${response.statusText}`);
+  }
+
+  const payload = await response.json();
+  if (payload.errors?.length) {
+    throw new Error(payload.errors.map((error) => error.message).join("; "));
+  }
+
+  return payload.data;
 }
-
-const payload = await response.json();
-if (payload.errors?.length) {
-  throw new Error(payload.errors.map((error) => error.message).join("; "));
-}
-
-const user = payload.data.user;
 if (!user) {
   throw new Error(`GitHub user not found: ${login}`);
 }
