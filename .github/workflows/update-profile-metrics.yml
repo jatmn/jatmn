@@ -23,11 +23,7 @@ jobs:
       - name: Generate metrics
         run: npm run update
         env:
-          # Prefer the personal token when it is valid so contribution totals can
-          # include private activity. The updater falls back to github.token when
-          # that secret has expired, lost access, or hits a query resource limit.
-          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
 
       - name: Commit refreshed metrics
         run: |
