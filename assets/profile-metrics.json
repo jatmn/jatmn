@@ -6,7 +6,7 @@
   "followers": 19,
   "following": 7,
   "publicRepos": 20,
-  "updatedAt": "2026-08-04T15:33:57.219Z",
+  "updatedAt": "2026-08-05T15:25:54.153Z",
   "privacy": {
     "contributionTotalsMayIncludePrivateActivity": true,
     "repositoryDetailsArePublicOnly": true
@@ -14,25 +14,21 @@
   "contributions": {
     "totalCommitContributions": 364,
     "totalPullRequestContributions": 141,
-    "totalPullRequestReviewContributions": 731,
+    "totalPullRequestReviewContributions": 730,
     "totalIssueContributions": 7,
     "totalRepositoriesWithContributedCommits": 14
   },
   "contributionWindows": {
     "last30Days": {
-      "totalCommitContributions": 92,
+      "totalCommitContributions": 89,
       "totalPullRequestContributions": 60,
-      "totalPullRequestReviewContributions": 275,
+      "totalPullRequestReviewContributions": 259,
       "totalIssueContributions": 0,
       "totalRepositoriesWithContributedCommits": 4
     }
   },
   "contributionTrends": {
     "last60Days": [
-      {
-        "date": "2026-06-06",
-        "count": 13
-      },
       {
         "date": "2026-06-07",
         "count": 35
@@ -191,7 +187,7 @@
       },
       {
         "date": "2026-07-16",
-        "count": 18
+        "count": 17
       },
       {
         "date": "2026-07-17",
@@ -251,7 +247,7 @@
       },
       {
         "date": "2026-07-31",
-        "count": 12
+        "count": 11
       },
       {
         "date": "2026-08-01",
@@ -267,21 +263,21 @@
       },
       {
         "date": "2026-08-04",
-        "count": 0
+        "count": 7
+      },
+      {
+        "date": "2026-08-05",
+        "count": 1
       }
     ],
     "last7Days": [
-      {
-        "date": "2026-07-29",
-        "count": 16
-      },
       {
         "date": "2026-07-30",
         "count": 12
       },
       {
         "date": "2026-07-31",
-        "count": 12
+        "count": 11
       },
       {
         "date": "2026-08-01",
@@ -297,41 +293,45 @@
       },
       {
         "date": "2026-08-04",
-        "count": 0
+        "count": 7
+      },
+      {
+        "date": "2026-08-05",
+        "count": 1
       }
     ]
   },
   "recentPublicRepos": [
     {
-      "name": "openclaude",
-      "nameWithOwner": "Gitlawb/openclaude",
-      "url": "https://github.com/Gitlawb/openclaude",
-      "stargazerCount": 30508,
-      "forkCount": 8899,
-      "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "updatedAt": "2026-08-04T15:24:49Z",
-      "contributionCounts": {
-        "commits": 126,
-        "pullRequests": 128
-      }
-    },
-    {
       "name": "zero",
       "nameWithOwner": "Gitlawb/zero",
       "url": "https://github.com/Gitlawb/zero",
-      "stargazerCount": 1200,
+      "stargazerCount": 1208,
       "forkCount": 126,
       "primaryLanguage": {
         "name": "Go",
         "color": "#00ADD8"
       },
-      "updatedAt": "2026-08-04T13:23:32Z",
+      "updatedAt": "2026-08-05T14:23:19Z",
       "contributionCounts": {
         "commits": 0,
         "pullRequests": 5
+      }
+    },
+    {
+      "name": "openclaude",
+      "nameWithOwner": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "stargazerCount": 30523,
+      "forkCount": 8900,
+      "primaryLanguage": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "updatedAt": "2026-08-05T13:03:12Z",
+      "contributionCounts": {
+        "commits": 126,
+        "pullRequests": 128
       }
     },
     {
@@ -344,7 +344,7 @@
         "name": "JavaScript",
         "color": "#f1e05a"
       },
-      "updatedAt": "2026-08-03T15:51:56Z",
+      "updatedAt": "2026-08-04T15:34:55Z",
       "contributionCounts": {
         "commits": 11,
         "pullRequests": 0
