@@ -5,34 +5,30 @@
   "websiteUrl": "http://JAT.MN",
   "followers": 20,
   "following": 7,
-  "publicRepos": 21,
-  "updatedAt": "2026-08-11T14:30:43.345Z",
+  "publicRepos": 22,
+  "updatedAt": "2026-08-12T14:31:27.910Z",
   "privacy": {
     "contributionTotalsMayIncludePrivateActivity": true,
     "repositoryDetailsArePublicOnly": true
   },
   "contributions": {
-    "totalCommitContributions": 378,
-    "totalPullRequestContributions": 146,
-    "totalPullRequestReviewContributions": 761,
+    "totalCommitContributions": 381,
+    "totalPullRequestContributions": 151,
+    "totalPullRequestReviewContributions": 765,
     "totalIssueContributions": 8,
     "totalRepositoriesWithContributedCommits": 14
   },
   "contributionWindows": {
     "last30Days": {
-      "totalCommitContributions": 77,
-      "totalPullRequestContributions": 43,
-      "totalPullRequestReviewContributions": 211,
+      "totalCommitContributions": 78,
+      "totalPullRequestContributions": 47,
+      "totalPullRequestReviewContributions": 206,
       "totalIssueContributions": 1,
       "totalRepositoriesWithContributedCommits": 5
     }
   },
   "contributionTrends": {
     "last60Days": [
-      {
-        "date": "2026-06-13",
-        "count": 35
-      },
       {
         "date": "2026-06-14",
         "count": 13
@@ -247,7 +243,7 @@
       },
       {
         "date": "2026-08-06",
-        "count": 49
+        "count": 47
       },
       {
         "date": "2026-08-07",
@@ -259,25 +255,25 @@
       },
       {
         "date": "2026-08-09",
-        "count": 16
+        "count": 11
       },
       {
         "date": "2026-08-10",
-        "count": 25
+        "count": 17
       },
       {
         "date": "2026-08-11",
-        "count": 13
+        "count": 40
+      },
+      {
+        "date": "2026-08-12",
+        "count": 10
       }
     ],
     "last7Days": [
       {
-        "date": "2026-08-05",
-        "count": 12
-      },
-      {
         "date": "2026-08-06",
-        "count": 49
+        "count": 47
       },
       {
         "date": "2026-08-07",
@@ -289,30 +285,50 @@
       },
       {
         "date": "2026-08-09",
-        "count": 16
+        "count": 11
       },
       {
         "date": "2026-08-10",
-        "count": 25
+        "count": 17
       },
       {
         "date": "2026-08-11",
-        "count": 13
+        "count": 40
+      },
+      {
+        "date": "2026-08-12",
+        "count": 10
       }
     ]
   },
   "recentPublicRepos": [
     {
+      "name": "openclaude",
+      "nameWithOwner": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "stargazerCount": 30634,
+      "forkCount": 8907,
+      "primaryLanguage": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "updatedAt": "2026-08-12T14:21:37Z",
+      "contributionCounts": {
+        "commits": 136,
+        "pullRequests": 131
+      }
+    },
+    {
       "name": "zero",
       "nameWithOwner": "Gitlawb/zero",
       "url": "https://github.com/Gitlawb/zero",
-      "stargazerCount": 1238,
-      "forkCount": 129,
+      "stargazerCount": 1244,
+      "forkCount": 130,
       "primaryLanguage": {
         "name": "Go",
         "color": "#00ADD8"
       },
-      "updatedAt": "2026-08-11T14:14:09Z",
+      "updatedAt": "2026-08-12T12:21:58Z",
       "contributionCounts": {
         "commits": 0,
         "pullRequests": 5
@@ -328,26 +344,26 @@
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-08-11T13:20:32Z",
+      "updatedAt": "2026-08-12T04:17:41Z",
       "contributionCounts": {
         "commits": 0,
         "pullRequests": 1
       }
     },
     {
-      "name": "openclaude",
-      "nameWithOwner": "Gitlawb/openclaude",
-      "url": "https://github.com/Gitlawb/openclaude",
-      "stargazerCount": 30622,
-      "forkCount": 8906,
+      "name": "Codex-warp",
+      "nameWithOwner": "jatmn/Codex-warp",
+      "url": "https://github.com/jatmn/Codex-warp",
+      "stargazerCount": 0,
+      "forkCount": 0,
       "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
+        "name": "Rust",
+        "color": "#dea584"
       },
-      "updatedAt": "2026-08-11T13:19:29Z",
+      "updatedAt": "2026-08-12T03:00:55Z",
       "contributionCounts": {
-        "commits": 135,
-        "pullRequests": 130
+        "commits": 10,
+        "pullRequests": 11
       }
     },
     {
@@ -360,7 +376,7 @@
         "name": "JavaScript",
         "color": "#f1e05a"
       },
-      "updatedAt": "2026-08-10T14:33:30Z",
+      "updatedAt": "2026-08-11T14:35:08Z",
       "contributionCounts": {
         "commits": 11,
         "pullRequests": 0
@@ -380,22 +396,6 @@
       "contributionCounts": {
         "commits": 0,
         "pullRequests": 1
-      }
-    },
-    {
-      "name": "Codex-warp",
-      "nameWithOwner": "jatmn/Codex-warp",
-      "url": "https://github.com/jatmn/Codex-warp",
-      "stargazerCount": 0,
-      "forkCount": 0,
-      "primaryLanguage": {
-        "name": "Rust",
-        "color": "#dea584"
-      },
-      "updatedAt": "2026-08-09T22:18:17Z",
-      "contributionCounts": {
-        "commits": 8,
-        "pullRequests": 7
       }
     }
   ]
