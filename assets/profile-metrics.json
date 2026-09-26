@@ -3,36 +3,32 @@
   "name": "JATMN",
   "location": "SoCal",
   "websiteUrl": "http://JAT.MN",
-  "followers": 26,
+  "followers": 27,
   "following": 9,
-  "publicRepos": 23,
-  "updatedAt": "2026-09-25T17:56:32.992Z",
+  "publicRepos": 24,
+  "updatedAt": "2026-09-26T17:07:41.263Z",
   "privacy": {
     "contributionTotalsMayIncludePrivateActivity": true,
     "repositoryDetailsArePublicOnly": true
   },
   "contributions": {
-    "totalCommitContributions": 567,
-    "totalPullRequestContributions": 271,
+    "totalCommitContributions": 574,
+    "totalPullRequestContributions": 276,
     "totalPullRequestReviewContributions": 944,
     "totalIssueContributions": 14,
-    "totalRepositoriesWithContributedCommits": 13
+    "totalRepositoriesWithContributedCommits": 14
   },
   "contributionWindows": {
     "last30Days": {
-      "totalCommitContributions": 122,
-      "totalPullRequestContributions": 49,
-      "totalPullRequestReviewContributions": 176,
-      "totalIssueContributions": 1,
-      "totalRepositoriesWithContributedCommits": 4
+      "totalCommitContributions": 116,
+      "totalPullRequestContributions": 48,
+      "totalPullRequestReviewContributions": 171,
+      "totalIssueContributions": 0,
+      "totalRepositoriesWithContributedCommits": 5
     }
   },
   "contributionTrends": {
     "last60Days": [
-      {
-        "date": "2026-07-28",
-        "count": 13
-      },
       {
         "date": "2026-07-29",
         "count": 13
@@ -267,14 +263,14 @@
       },
       {
         "date": "2026-09-25",
-        "count": 4
+        "count": 26
+      },
+      {
+        "date": "2026-09-26",
+        "count": 9
       }
     ],
     "last7Days": [
-      {
-        "date": "2026-09-19",
-        "count": 36
-      },
       {
         "date": "2026-09-20",
         "count": 8
@@ -297,73 +293,45 @@
       },
       {
         "date": "2026-09-25",
-        "count": 4
+        "count": 26
+      },
+      {
+        "date": "2026-09-26",
+        "count": 9
       }
     ]
   },
   "recentPublicRepos": [
     {
-      "name": "pnpm",
-      "nameWithOwner": "pnpm/pnpm",
-      "url": "https://github.com/pnpm/pnpm",
-      "stargazerCount": 36642,
-      "forkCount": 1827,
-      "primaryLanguage": {
-        "name": "Rust",
-        "color": "#dea584"
-      },
-      "updatedAt": "2026-09-25T17:49:20Z",
-      "contributionCounts": {
-        "commits": 0,
-        "pullRequests": 2
-      }
-    },
-    {
       "name": "openclaude",
       "nameWithOwner": "Gitlawb/openclaude",
       "url": "https://github.com/Gitlawb/openclaude",
-      "stargazerCount": 33525,
-      "forkCount": 9104,
+      "stargazerCount": 33543,
+      "forkCount": 9106,
       "primaryLanguage": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-09-25T17:22:52Z",
+      "updatedAt": "2026-09-26T16:52:31Z",
       "contributionCounts": {
         "commits": 150,
         "pullRequests": 145
       }
     },
     {
-      "name": "jatmn",
-      "nameWithOwner": "jatmn/jatmn",
-      "url": "https://github.com/jatmn/jatmn",
-      "stargazerCount": 0,
-      "forkCount": 0,
+      "name": "pnpm",
+      "nameWithOwner": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "stargazerCount": 36653,
+      "forkCount": 1878,
       "primaryLanguage": {
-        "name": "JavaScript",
-        "color": "#f1e05a"
+        "name": "Rust",
+        "color": "#dea584"
       },
-      "updatedAt": "2026-09-24T17:51:10Z",
+      "updatedAt": "2026-09-26T15:35:27Z",
       "contributionCounts": {
-        "commits": 11,
-        "pullRequests": 0
-      }
-    },
-    {
-      "name": "zero",
-      "nameWithOwner": "Gitlawb/zero",
-      "url": "https://github.com/Gitlawb/zero",
-      "stargazerCount": 1682,
-      "forkCount": 192,
-      "primaryLanguage": {
-        "name": "Go",
-        "color": "#00ADD8"
-      },
-      "updatedAt": "2026-09-24T15:07:52Z",
-      "contributionCounts": {
-        "commits": 2,
-        "pullRequests": 7
+        "commits": 3,
+        "pullRequests": 4
       }
     },
     {
@@ -376,26 +344,58 @@
         "name": "C",
         "color": "#555555"
       },
-      "updatedAt": "2026-09-22T17:37:38Z",
+      "updatedAt": "2026-09-25T23:10:09Z",
       "contributionCounts": {
-        "commits": 283,
-        "pullRequests": 15
+        "commits": 285,
+        "pullRequests": 16
       }
     },
     {
-      "name": "openclaude",
-      "nameWithOwner": "hicap-oss/openclaude",
-      "url": "https://github.com/hicap-oss/openclaude",
+      "name": "Codex-warp",
+      "nameWithOwner": "jatmn/Codex-warp",
+      "url": "https://github.com/jatmn/Codex-warp",
       "stargazerCount": 0,
       "forkCount": 0,
       "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
+        "name": "Rust",
+        "color": "#dea584"
       },
-      "updatedAt": "2026-09-22T04:38:56Z",
+      "updatedAt": "2026-09-25T22:13:44Z",
+      "contributionCounts": {
+        "commits": 101,
+        "pullRequests": 101
+      }
+    },
+    {
+      "name": "jatmn",
+      "nameWithOwner": "jatmn/jatmn",
+      "url": "https://github.com/jatmn/jatmn",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "updatedAt": "2026-09-25T17:56:39Z",
+      "contributionCounts": {
+        "commits": 11,
+        "pullRequests": 0
+      }
+    },
+    {
+      "name": "zero",
+      "nameWithOwner": "Gitlawb/zero",
+      "url": "https://github.com/Gitlawb/zero",
+      "stargazerCount": 1682,
+      "forkCount": 193,
+      "primaryLanguage": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "updatedAt": "2026-09-24T15:07:52Z",
       "contributionCounts": {
         "commits": 0,
-        "pullRequests": 1
+        "pullRequests": 7
       }
     }
   ]
