@@ -6,33 +6,29 @@
   "followers": 27,
   "following": 9,
   "publicRepos": 24,
-  "updatedAt": "2026-09-26T17:07:41.263Z",
+  "updatedAt": "2026-09-27T17:43:23.236Z",
   "privacy": {
     "contributionTotalsMayIncludePrivateActivity": true,
     "repositoryDetailsArePublicOnly": true
   },
   "contributions": {
-    "totalCommitContributions": 574,
-    "totalPullRequestContributions": 276,
-    "totalPullRequestReviewContributions": 944,
+    "totalCommitContributions": 575,
+    "totalPullRequestContributions": 277,
+    "totalPullRequestReviewContributions": 956,
     "totalIssueContributions": 14,
     "totalRepositoriesWithContributedCommits": 14
   },
   "contributionWindows": {
     "last30Days": {
-      "totalCommitContributions": 116,
-      "totalPullRequestContributions": 48,
-      "totalPullRequestReviewContributions": 171,
+      "totalCommitContributions": 91,
+      "totalPullRequestContributions": 45,
+      "totalPullRequestReviewContributions": 173,
       "totalIssueContributions": 0,
       "totalRepositoriesWithContributedCommits": 5
     }
   },
   "contributionTrends": {
     "last60Days": [
-      {
-        "date": "2026-07-29",
-        "count": 13
-      },
       {
         "date": "2026-07-30",
         "count": 7
@@ -239,19 +235,19 @@
       },
       {
         "date": "2026-09-19",
-        "count": 36
+        "count": 34
       },
       {
         "date": "2026-09-20",
-        "count": 8
+        "count": 7
       },
       {
         "date": "2026-09-21",
-        "count": 36
+        "count": 35
       },
       {
         "date": "2026-09-22",
-        "count": 53
+        "count": 50
       },
       {
         "date": "2026-09-23",
@@ -259,7 +255,7 @@
       },
       {
         "date": "2026-09-24",
-        "count": 31
+        "count": 30
       },
       {
         "date": "2026-09-25",
@@ -267,21 +263,21 @@
       },
       {
         "date": "2026-09-26",
-        "count": 9
+        "count": 24
+      },
+      {
+        "date": "2026-09-27",
+        "count": 8
       }
     ],
     "last7Days": [
       {
-        "date": "2026-09-20",
-        "count": 8
-      },
-      {
         "date": "2026-09-21",
-        "count": 36
+        "count": 35
       },
       {
         "date": "2026-09-22",
-        "count": 53
+        "count": 50
       },
       {
         "date": "2026-09-23",
@@ -289,7 +285,7 @@
       },
       {
         "date": "2026-09-24",
-        "count": 31
+        "count": 30
       },
       {
         "date": "2026-09-25",
@@ -297,41 +293,93 @@
       },
       {
         "date": "2026-09-26",
-        "count": 9
+        "count": 24
+      },
+      {
+        "date": "2026-09-27",
+        "count": 8
       }
     ]
   },
   "recentPublicRepos": [
     {
-      "name": "openclaude",
-      "nameWithOwner": "Gitlawb/openclaude",
-      "url": "https://github.com/Gitlawb/openclaude",
-      "stargazerCount": 33543,
-      "forkCount": 9106,
+      "name": "pnpm",
+      "nameWithOwner": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "stargazerCount": 36673,
+      "forkCount": 1884,
+      "primaryLanguage": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "updatedAt": "2026-09-27T17:42:04Z",
+      "contributionCounts": {
+        "commits": 4,
+        "pullRequests": 4
+      }
+    },
+    {
+      "name": "t3code",
+      "nameWithOwner": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "stargazerCount": 23696,
+      "forkCount": 6155,
       "primaryLanguage": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-09-26T16:52:31Z",
+      "updatedAt": "2026-09-27T17:02:54Z",
+      "contributionCounts": {
+        "commits": 0,
+        "pullRequests": 1
+      }
+    },
+    {
+      "name": "openclaude",
+      "nameWithOwner": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "stargazerCount": 33551,
+      "forkCount": 9110,
+      "primaryLanguage": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "updatedAt": "2026-09-27T15:10:42Z",
       "contributionCounts": {
         "commits": 150,
         "pullRequests": 145
       }
     },
     {
-      "name": "pnpm",
-      "nameWithOwner": "pnpm/pnpm",
-      "url": "https://github.com/pnpm/pnpm",
-      "stargazerCount": 36653,
-      "forkCount": 1878,
+      "name": "zero",
+      "nameWithOwner": "Gitlawb/zero",
+      "url": "https://github.com/Gitlawb/zero",
+      "stargazerCount": 1683,
+      "forkCount": 193,
       "primaryLanguage": {
-        "name": "Rust",
-        "color": "#dea584"
+        "name": "Go",
+        "color": "#00ADD8"
       },
-      "updatedAt": "2026-09-26T15:35:27Z",
+      "updatedAt": "2026-09-27T05:29:52Z",
       "contributionCounts": {
-        "commits": 3,
-        "pullRequests": 4
+        "commits": 0,
+        "pullRequests": 7
+      }
+    },
+    {
+      "name": "jatmn",
+      "nameWithOwner": "jatmn/jatmn",
+      "url": "https://github.com/jatmn/jatmn",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "updatedAt": "2026-09-26T17:07:45Z",
+      "contributionCounts": {
+        "commits": 11,
+        "pullRequests": 0
       }
     },
     {
@@ -348,54 +396,6 @@
       "contributionCounts": {
         "commits": 285,
         "pullRequests": 16
-      }
-    },
-    {
-      "name": "Codex-warp",
-      "nameWithOwner": "jatmn/Codex-warp",
-      "url": "https://github.com/jatmn/Codex-warp",
-      "stargazerCount": 0,
-      "forkCount": 0,
-      "primaryLanguage": {
-        "name": "Rust",
-        "color": "#dea584"
-      },
-      "updatedAt": "2026-09-25T22:13:44Z",
-      "contributionCounts": {
-        "commits": 101,
-        "pullRequests": 101
-      }
-    },
-    {
-      "name": "jatmn",
-      "nameWithOwner": "jatmn/jatmn",
-      "url": "https://github.com/jatmn/jatmn",
-      "stargazerCount": 0,
-      "forkCount": 0,
-      "primaryLanguage": {
-        "name": "JavaScript",
-        "color": "#f1e05a"
-      },
-      "updatedAt": "2026-09-25T17:56:39Z",
-      "contributionCounts": {
-        "commits": 11,
-        "pullRequests": 0
-      }
-    },
-    {
-      "name": "zero",
-      "nameWithOwner": "Gitlawb/zero",
-      "url": "https://github.com/Gitlawb/zero",
-      "stargazerCount": 1682,
-      "forkCount": 193,
-      "primaryLanguage": {
-        "name": "Go",
-        "color": "#00ADD8"
-      },
-      "updatedAt": "2026-09-24T15:07:52Z",
-      "contributionCounts": {
-        "commits": 0,
-        "pullRequests": 7
       }
     }
   ]
