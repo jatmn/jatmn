@@ -22,7 +22,13 @@ Building and maintaining developer tools, exploring 3D printing, and following t
 
 ### ⚙️ Tools I reach for
 
-`TypeScript` · `Rust` · `C++` · `Lua` · `Shell` · `GitHub Actions`
+![TypeScript](https://img.shields.io/badge/TypeScript-ADDCFA?style=flat-square&logo=typescript&logoColor=17466E)
+![Rust](https://img.shields.io/badge/Rust-ADDCFA?style=flat-square&logo=rust&logoColor=17466E)
+![C](https://img.shields.io/badge/C-ADDCFA?style=flat-square&logo=c&logoColor=17466E)
+![C++](https://img.shields.io/badge/C%2B%2B-ADDCFA?style=flat-square&logo=cplusplus&logoColor=17466E)
+![Lua](https://img.shields.io/badge/Lua-ADDCFA?style=flat-square&logo=lua&logoColor=17466E)
+![Shell](https://img.shields.io/badge/Shell-ADDCFA?style=flat-square&logo=gnubash&logoColor=17466E)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-ADDCFA?style=flat-square&logo=githubactions&logoColor=17466E)
 
 ## 📈 What I’ve been shipping
 
