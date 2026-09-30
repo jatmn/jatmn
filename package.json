@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "update": "node scripts/update-profile-metrics.mjs",
-    "check": "node --check scripts/update-profile-metrics.mjs"
+    "check": "node --check scripts/update-profile-metrics.mjs",
+    "test": "node scripts/update-profile-metrics.test.mjs"
   }
 }

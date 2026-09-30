@@ -86,12 +86,23 @@ query PullRequestRepos($login: String!) {
   }
 }`;
 
+const ownedReposQuery = `
+query OwnedRepos($login: String!, $after: String) {
+  user(login: $login) {
+    repositories(first: 100, after: $after, ownerAffiliations: OWNER, privacy: PUBLIC) {
+      nodes { url parent { url } }
+      pageInfo { hasNextPage endCursor }
+    }
+  }
+}`;
+
 const profile = await graphql(profileQuery, { login });
 const totals = await graphql(contributionTotalsQuery, { login });
 const calendar = await graphql(contributionCalendarQuery, { login, from: from60, to });
 const window = await graphql(contributionWindowQuery, { login, from: from30, to });
 const commitRepos = await graphql(commitReposQuery, { login });
 const pullRequestRepos = await graphql(pullRequestReposQuery, { login });
+const retainedRepoUrls = await fetchRetainedRepoUrls();
 
 const user = profile.user && {
   ...profile.user,
@@ -172,7 +183,7 @@ const metrics = {
     last60Days: dailyActivity,
     last7Days: dailyActivity.slice(-7),
   },
-  recentPublicRepos: buildRecentPublicRepos(user.contributionsCollection),
+  recentPublicRepos: buildRecentPublicRepos(user.contributionsCollection, retainedRepoUrls),
 };
 
 const avatarImages = new Map(await Promise.all(
@@ -182,6 +193,23 @@ const avatarImages = new Map(await Promise.all(
 await mkdir(outDir, { recursive: true });
 await writeFile(new URL("profile-metrics.json", outDir), `${JSON.stringify(metrics, null, 2)}\n`);
 await writeFile(new URL("profile-metrics.svg", outDir), renderSvg(metrics, avatarImages));
+
+async function fetchRetainedRepoUrls() {
+  const urls = new Set();
+  let after = null;
+  let page;
+  do {
+    const data = await graphql(ownedReposQuery, { login, after });
+    page = data.user.repositories;
+    for (const repo of page.nodes) {
+      urls.add(repo.url);
+      // Contribution history targets the upstream even after a fork is deleted.
+      if (repo.parent) urls.add(repo.parent.url);
+    }
+    after = page.pageInfo.endCursor;
+  } while (page.pageInfo.hasNextPage);
+  return urls;
+}
 
 async function fetchDailyActivity(days) {
   const result = [];
@@ -395,12 +423,13 @@ function extractDailyContributions(calendar, count) {
   return days.slice(-count);
 }
 
-function buildRecentPublicRepos(contributions) {
+function buildRecentPublicRepos(contributions, retainedRepoUrls) {
   const byUrl = new Map();
   addContributionRepos(byUrl, contributions.commitContributionsByRepository, "commits");
   addContributionRepos(byUrl, contributions.pullRequestContributionsByRepository, "pullRequests");
 
   return [...byUrl.values()]
+    .filter((repo) => retainedRepoUrls.has(repo.url))
     .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))
     .slice(0, 20)
     .map(({ contributionCounts, ...repo }) => ({
