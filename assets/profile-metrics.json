@@ -6,14 +6,14 @@
   "followers": 27,
   "following": 9,
   "publicRepos": 25,
-  "updatedAt": "2026-09-30T00:46:03.706Z",
+  "updatedAt": "2026-09-30T01:24:55.056Z",
   "privacy": {
     "contributionTotalsMayIncludePrivateActivity": true,
     "repositoryDetailsArePublicOnly": true
   },
   "contributions": {
     "totalCommitContributions": 602,
-    "totalPullRequestContributions": 300,
+    "totalPullRequestContributions": 301,
     "totalPullRequestReviewContributions": 958,
     "totalIssueContributions": 14,
     "totalRepositoriesWithContributedCommits": 15
@@ -21,7 +21,7 @@
   "contributionWindows": {
     "last30Days": {
       "totalCommitContributions": 111,
-      "totalPullRequestContributions": 64,
+      "totalPullRequestContributions": 65,
       "totalPullRequestReviewContributions": 149,
       "totalIssueContributions": 0,
       "totalRepositoriesWithContributedCommits": 7
@@ -31,10 +31,10 @@
     "last60Days": [
       {
         "date": "2026-08-02",
-        "count": 2,
+        "count": 4,
         "commits": 1,
         "pullRequests": 0,
-        "reviews": 0
+        "reviews": 10
       },
       {
         "date": "2026-08-03",
@@ -45,31 +45,31 @@
       },
       {
         "date": "2026-08-04",
-        "count": 7,
+        "count": 6,
         "commits": 0,
         "pullRequests": 0,
         "reviews": 1
       },
       {
         "date": "2026-08-05",
-        "count": 24,
+        "count": 12,
         "commits": 4,
         "pullRequests": 2,
-        "reviews": 31
+        "reviews": 0
       },
       {
         "date": "2026-08-06",
-        "count": 30,
+        "count": 40,
         "commits": 3,
         "pullRequests": 1,
-        "reviews": 28
+        "reviews": 51
       },
       {
         "date": "2026-08-07",
-        "count": 3,
+        "count": 6,
         "commits": 1,
         "pullRequests": 0,
-        "reviews": 4
+        "reviews": 6
       },
       {
         "date": "2026-08-08",
@@ -80,59 +80,59 @@
       },
       {
         "date": "2026-08-09",
-        "count": 9,
+        "count": 8,
         "commits": 3,
         "pullRequests": 0,
-        "reviews": 27
+        "reviews": 21
       },
       {
         "date": "2026-08-10",
         "count": 10,
         "commits": 0,
         "pullRequests": 1,
-        "reviews": 22
+        "reviews": 24
       },
       {
         "date": "2026-08-11",
-        "count": 31,
+        "count": 30,
         "commits": 6,
         "pullRequests": 6,
-        "reviews": 23
+        "reviews": 24
       },
       {
         "date": "2026-08-12",
         "count": 20,
         "commits": 2,
         "pullRequests": 2,
-        "reviews": 30
+        "reviews": 27
       },
       {
         "date": "2026-08-13",
-        "count": 14,
+        "count": 15,
         "commits": 1,
         "pullRequests": 0,
-        "reviews": 22
+        "reviews": 24
       },
       {
         "date": "2026-08-14",
-        "count": 23,
+        "count": 24,
         "commits": 3,
         "pullRequests": 5,
-        "reviews": 15
+        "reviews": 17
       },
       {
         "date": "2026-08-15",
-        "count": 25,
+        "count": 21,
         "commits": 8,
         "pullRequests": 7,
-        "reviews": 22
+        "reviews": 18
       },
       {
         "date": "2026-08-16",
-        "count": 20,
+        "count": 24,
         "commits": 9,
         "pullRequests": 9,
-        "reviews": 8
+        "reviews": 14
       },
       {
         "date": "2026-08-17",
@@ -143,45 +143,45 @@
       },
       {
         "date": "2026-08-18",
-        "count": 20,
+        "count": 17,
         "commits": 4,
         "pullRequests": 8,
-        "reviews": 27
+        "reviews": 22
       },
       {
         "date": "2026-08-19",
-        "count": 3,
+        "count": 6,
         "commits": 0,
         "pullRequests": 1,
-        "reviews": 12
+        "reviews": 9
       },
       {
         "date": "2026-08-20",
-        "count": 14,
+        "count": 12,
         "commits": 3,
         "pullRequests": 2,
-        "reviews": 20
+        "reviews": 13
       },
       {
         "date": "2026-08-21",
-        "count": 43,
+        "count": 45,
         "commits": 10,
         "pullRequests": 21,
-        "reviews": 11
+        "reviews": 17
       },
       {
         "date": "2026-08-22",
-        "count": 19,
+        "count": 17,
         "commits": 9,
         "pullRequests": 1,
-        "reviews": 24
+        "reviews": 15
       },
       {
         "date": "2026-08-23",
-        "count": 23,
+        "count": 25,
         "commits": 6,
         "pullRequests": 11,
-        "reviews": 10
+        "reviews": 20
       },
       {
         "date": "2026-08-24",
@@ -199,59 +199,59 @@
       },
       {
         "date": "2026-08-26",
-        "count": 13,
+        "count": 10,
         "commits": 3,
         "pullRequests": 2,
-        "reviews": 16
+        "reviews": 7
       },
       {
         "date": "2026-08-27",
-        "count": 22,
+        "count": 25,
         "commits": 13,
         "pullRequests": 6,
-        "reviews": 18
+        "reviews": 24
       },
       {
         "date": "2026-08-28",
-        "count": 45,
+        "count": 41,
         "commits": 26,
         "pullRequests": 4,
-        "reviews": 55
+        "reviews": 37
       },
       {
         "date": "2026-08-29",
-        "count": 0,
+        "count": 4,
         "commits": 0,
         "pullRequests": 0,
-        "reviews": 5
+        "reviews": 31
       },
       {
         "date": "2026-08-30",
-        "count": 22,
+        "count": 21,
         "commits": 6,
         "pullRequests": 4,
         "reviews": 31
       },
       {
         "date": "2026-08-31",
-        "count": 11,
+        "count": 12,
         "commits": 1,
         "pullRequests": 0,
-        "reviews": 33
+        "reviews": 35
       },
       {
         "date": "2026-09-01",
-        "count": 35,
+        "count": 31,
         "commits": 10,
         "pullRequests": 7,
-        "reviews": 31
+        "reviews": 24
       },
       {
         "date": "2026-09-02",
-        "count": 22,
+        "count": 26,
         "commits": 3,
         "pullRequests": 3,
-        "reviews": 23
+        "reviews": 28
       },
       {
         "date": "2026-09-03",
@@ -269,66 +269,66 @@
       },
       {
         "date": "2026-09-05",
-        "count": 41,
+        "count": 35,
         "commits": 6,
         "pullRequests": 1,
-        "reviews": 31
+        "reviews": 22
       },
       {
         "date": "2026-09-06",
-        "count": 6,
+        "count": 7,
         "commits": 0,
         "pullRequests": 0,
-        "reviews": 14
+        "reviews": 20
       },
       {
         "date": "2026-09-07",
-        "count": 21,
+        "count": 26,
         "commits": 0,
         "pullRequests": 0,
-        "reviews": 28
+        "reviews": 34
       },
       {
         "date": "2026-09-08",
         "count": 22,
         "commits": 1,
         "pullRequests": 2,
-        "reviews": 22
+        "reviews": 16
       },
       {
         "date": "2026-09-09",
-        "count": 14,
+        "count": 10,
         "commits": 0,
         "pullRequests": 0,
-        "reviews": 11
+        "reviews": 12
       },
       {
         "date": "2026-09-10",
-        "count": 19,
+        "count": 23,
         "commits": 0,
         "pullRequests": 0,
-        "reviews": 8
+        "reviews": 12
       },
       {
         "date": "2026-09-11",
         "count": 34,
         "commits": 2,
         "pullRequests": 0,
-        "reviews": 25
+        "reviews": 24
       },
       {
         "date": "2026-09-12",
-        "count": 10,
+        "count": 9,
         "commits": 2,
         "pullRequests": 0,
-        "reviews": 25
+        "reviews": 21
       },
       {
         "date": "2026-09-13",
-        "count": 9,
+        "count": 10,
         "commits": 1,
         "pullRequests": 1,
-        "reviews": 5
+        "reviews": 10
       },
       {
         "date": "2026-09-14",
@@ -381,17 +381,17 @@
       },
       {
         "date": "2026-09-21",
-        "count": 38,
+        "count": 35,
         "commits": 11,
         "pullRequests": 3,
-        "reviews": 16
+        "reviews": 12
       },
       {
         "date": "2026-09-22",
-        "count": 47,
+        "count": 50,
         "commits": 6,
         "pullRequests": 2,
-        "reviews": 8
+        "reviews": 11
       },
       {
         "date": "2026-09-23",
@@ -430,16 +430,16 @@
       },
       {
         "date": "2026-09-28",
-        "count": 44,
+        "count": 43,
         "commits": 4,
         "pullRequests": 12,
         "reviews": 3
       },
       {
         "date": "2026-09-29",
-        "count": 40,
+        "count": 42,
         "commits": 23,
-        "pullRequests": 11,
+        "pullRequests": 12,
         "reviews": 0
       },
       {
@@ -481,16 +481,16 @@
       },
       {
         "date": "2026-09-28",
-        "count": 44,
+        "count": 43,
         "commits": 4,
         "pullRequests": 12,
         "reviews": 3
       },
       {
         "date": "2026-09-29",
-        "count": 40,
+        "count": 42,
         "commits": 23,
-        "pullRequests": 11,
+        "pullRequests": 12,
         "reviews": 0
       },
       {
@@ -508,16 +508,33 @@
       "nameWithOwner": "pingdotgg/t3code",
       "url": "https://github.com/pingdotgg/t3code",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/89191727?s=80&v=4",
-      "stargazerCount": 23925,
-      "forkCount": 6248,
+      "stargazerCount": 23924,
+      "forkCount": 6251,
       "primaryLanguage": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-09-30T00:41:01Z",
+      "updatedAt": "2026-09-30T01:14:39Z",
       "contributionCounts": {
         "commits": 0,
         "pullRequests": 1
+      }
+    },
+    {
+      "name": "openclaude",
+      "nameWithOwner": "Twigpine/openclaude",
+      "url": "https://github.com/Twigpine/openclaude",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
+      "stargazerCount": 33572,
+      "forkCount": 9106,
+      "primaryLanguage": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "updatedAt": "2026-09-30T01:03:29Z",
+      "contributionCounts": {
+        "commits": 150,
+        "pullRequests": 145
       }
     },
     {
@@ -531,7 +548,7 @@
         "name": "Rust",
         "color": "#dea584"
       },
-      "updatedAt": "2026-09-30T00:39:27Z",
+      "updatedAt": "2026-09-30T00:58:29Z",
       "contributionCounts": {
         "commits": 4,
         "pullRequests": 4
@@ -552,23 +569,6 @@
       "contributionCounts": {
         "commits": 24,
         "pullRequests": 6
-      }
-    },
-    {
-      "name": "openclaude",
-      "nameWithOwner": "Twigpine/openclaude",
-      "url": "https://github.com/Twigpine/openclaude",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 33573,
-      "forkCount": 9105,
-      "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "updatedAt": "2026-09-30T00:23:28Z",
-      "contributionCounts": {
-        "commits": 150,
-        "pullRequests": 145
       }
     },
     {
