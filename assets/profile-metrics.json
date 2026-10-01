@@ -5,8 +5,8 @@
   "websiteUrl": "http://JAT.MN",
   "followers": 27,
   "following": 9,
-  "publicRepos": 25,
-  "updatedAt": "2026-09-30T18:26:15.709Z",
+  "publicRepos": 24,
+  "updatedAt": "2026-10-01T18:51:35.968Z",
   "privacy": {
     "contributionTotalsMayIncludePrivateActivity": true,
     "repositoryDetailsArePublicOnly": true
@@ -20,22 +20,15 @@
   },
   "contributionWindows": {
     "last30Days": {
-      "totalCommitContributions": 113,
-      "totalPullRequestContributions": 65,
-      "totalPullRequestReviewContributions": 149,
+      "totalCommitContributions": 103,
+      "totalPullRequestContributions": 58,
+      "totalPullRequestReviewContributions": 138,
       "totalIssueContributions": 0,
       "totalRepositoriesWithContributedCommits": 7
     }
   },
   "contributionTrends": {
     "last60Days": [
-      {
-        "date": "2026-08-02",
-        "count": 4,
-        "commits": 1,
-        "pullRequests": 0,
-        "reviews": 10
-      },
       {
         "date": "2026-08-03",
         "count": 0,
@@ -59,14 +52,14 @@
       },
       {
         "date": "2026-08-06",
-        "count": 40,
+        "count": 39,
         "commits": 3,
         "pullRequests": 1,
         "reviews": 51
       },
       {
         "date": "2026-08-07",
-        "count": 6,
+        "count": 5,
         "commits": 1,
         "pullRequests": 0,
         "reviews": 6
@@ -101,14 +94,14 @@
       },
       {
         "date": "2026-08-12",
-        "count": 20,
+        "count": 19,
         "commits": 2,
         "pullRequests": 2,
         "reviews": 27
       },
       {
         "date": "2026-08-13",
-        "count": 15,
+        "count": 14,
         "commits": 1,
         "pullRequests": 0,
         "reviews": 24
@@ -262,14 +255,14 @@
       },
       {
         "date": "2026-09-04",
-        "count": 65,
+        "count": 34,
         "commits": 1,
         "pullRequests": 3,
         "reviews": 17
       },
       {
         "date": "2026-09-05",
-        "count": 35,
+        "count": 20,
         "commits": 6,
         "pullRequests": 1,
         "reviews": 22
@@ -444,20 +437,20 @@
       },
       {
         "date": "2026-09-30",
-        "count": 1,
+        "count": 10,
+        "commits": 0,
+        "pullRequests": 0,
+        "reviews": 0
+      },
+      {
+        "date": "2026-10-01",
+        "count": 3,
         "commits": 0,
         "pullRequests": 0,
         "reviews": 0
       }
     ],
     "last7Days": [
-      {
-        "date": "2026-09-24",
-        "count": 30,
-        "commits": 0,
-        "pullRequests": 0,
-        "reviews": 4
-      },
       {
         "date": "2026-09-25",
         "count": 26,
@@ -495,7 +488,14 @@
       },
       {
         "date": "2026-09-30",
-        "count": 1,
+        "count": 10,
+        "commits": 0,
+        "pullRequests": 0,
+        "reviews": 0
+      },
+      {
+        "date": "2026-10-01",
+        "count": 3,
         "commits": 0,
         "pullRequests": 0,
         "reviews": 0
@@ -504,34 +504,17 @@
   },
   "recentPublicRepos": [
     {
-      "name": "t3code",
-      "nameWithOwner": "pingdotgg/t3code",
-      "url": "https://github.com/pingdotgg/t3code",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/89191727?s=80&v=4",
-      "stargazerCount": 23983,
-      "forkCount": 6281,
-      "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "updatedAt": "2026-09-30T18:21:23Z",
-      "contributionCounts": {
-        "commits": 0,
-        "pullRequests": 1
-      }
-    },
-    {
       "name": "openclaude",
       "nameWithOwner": "Twigpine/openclaude",
       "url": "https://github.com/Twigpine/openclaude",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 33579,
-      "forkCount": 9107,
+      "stargazerCount": 33605,
+      "forkCount": 9110,
       "primaryLanguage": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-09-30T18:03:19Z",
+      "updatedAt": "2026-10-01T18:47:48Z",
       "contributionCounts": {
         "commits": 150,
         "pullRequests": 145
@@ -542,13 +525,13 @@
       "nameWithOwner": "pnpm/pnpm",
       "url": "https://github.com/pnpm/pnpm",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/21320719?s=80&v=4",
-      "stargazerCount": 36715,
+      "stargazerCount": 36725,
       "forkCount": 1900,
       "primaryLanguage": {
         "name": "Rust",
         "color": "#dea584"
       },
-      "updatedAt": "2026-09-30T17:12:47Z",
+      "updatedAt": "2026-10-01T18:18:13Z",
       "contributionCounts": {
         "commits": 4,
         "pullRequests": 4
@@ -559,13 +542,13 @@
       "nameWithOwner": "Twigpine/zero",
       "url": "https://github.com/Twigpine/zero",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 1685,
+      "stargazerCount": 1688,
       "forkCount": 193,
       "primaryLanguage": {
         "name": "Go",
         "color": "#00ADD8"
       },
-      "updatedAt": "2026-09-30T13:09:28Z",
+      "updatedAt": "2026-10-01T15:44:46Z",
       "contributionCounts": {
         "commits": 2,
         "pullRequests": 7
@@ -576,13 +559,13 @@
       "nameWithOwner": "Ultimaker/CuraEngine",
       "url": "https://github.com/Ultimaker/CuraEngine",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/499557?s=80&v=4",
-      "stargazerCount": 1853,
+      "stargazerCount": 1854,
       "forkCount": 933,
       "primaryLanguage": {
         "name": "C++",
         "color": "#f34b7d"
       },
-      "updatedAt": "2026-09-30T09:08:39Z",
+      "updatedAt": "2026-10-01T12:58:20Z",
       "contributionCounts": {
         "commits": 0,
         "pullRequests": 12
