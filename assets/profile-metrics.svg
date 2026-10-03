@@ -1,6 +1,6 @@
 <svg width="840" height="1412" viewBox="0 0 840 1412" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">JATMN — building, contributing, reviewing</title>
-  <desc id="desc">Last 30 days: 100 commits, 55 pull requests opened, and 129 distinct PRs reviewed. Past-year totals appear below each figure. Both charts show separate daily commit, opened pull request, and reviewed-PR counts. Reviews count distinct PRs in each daily or summary window. Only public repository names are shown.</desc>
+  <desc id="desc">Last 30 days: 97 commits, 53 pull requests opened, and 126 distinct PRs reviewed. Past-year totals appear below each figure. Both charts show separate daily commit, opened pull request, and reviewed-PR counts. Reviews count distinct PRs in each daily or summary window. Only public repository names are shown.</desc>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .canvas { fill: #B9E2FC; }
@@ -26,22 +26,22 @@
       <rect class="card" width="252" height="132" rx="14"/>
       <circle class="sky" cx="20" cy="25" r="4"/>
       <text class="muted" x="32" y="30" font-size="15">Commits</text>
-      <text class="fg" x="20" y="82" font-size="40" font-weight="700">100</text>
+      <text class="fg" x="20" y="82" font-size="40" font-weight="700">97</text>
       <text class="muted" x="20" y="111" font-size="13">604 in the past year</text>
     </g>
     <g transform="translate(294 94)">
       <rect class="card" width="252" height="132" rx="14"/>
       <circle class="blue" cx="20" cy="25" r="4"/>
       <text class="muted" x="32" y="30" font-size="15">Pull requests opened</text>
-      <text class="fg" x="20" y="82" font-size="40" font-weight="700">55</text>
+      <text class="fg" x="20" y="82" font-size="40" font-weight="700">53</text>
       <text class="muted" x="20" y="111" font-size="13">301 in the past year</text>
     </g>
     <g transform="translate(560 94)">
       <rect class="card" width="252" height="132" rx="14"/>
       <circle class="orange" cx="20" cy="25" r="4"/>
       <text class="muted" x="32" y="30" font-size="15">PRs reviewed</text>
-      <text class="fg" x="20" y="82" font-size="40" font-weight="700">129</text>
-      <text class="muted" x="20" y="111" font-size="13">960 in the past year</text>
+      <text class="fg" x="20" y="82" font-size="40" font-weight="700">126</text>
+      <text class="muted" x="20" y="111" font-size="13">959 in the past year</text>
     </g>
   <g transform="translate(28 250)">
     <text class="fg" x="0" y="18" font-size="17" font-weight="600">The last 60 days</text>
@@ -53,8 +53,8 @@
       <text class="muted" x="34" y="66" text-anchor="end" font-size="12">52</text><line class="rule" x1="42" y1="105" x2="768" y2="105"/>
       <text class="muted" x="34" y="109" text-anchor="end" font-size="12">26</text><line class="rule" x1="42" y1="148" x2="768" y2="148"/>
       <text class="muted" x="34" y="152" text-anchor="end" font-size="12">0</text>
-    <polyline class="line-sky" points="42,148 54.31,141.38 66.61,143.04 78.92,146.35 91.22,148 103.53,143.04 115.83,148 128.14,138.08 140.44,144.69 152.75,146.35 165.05,143.04 177.36,134.77 189.66,133.12 201.97,148 214.27,141.38 226.58,148 238.88,143.04 251.19,131.46 263.49,133.12 275.8,138.08 288.1,144.69 300.41,139.73 312.71,143.04 325.02,126.5 337.32,105 349.63,148 361.93,138.08 374.24,146.35 386.54,131.46 398.85,143.04 411.15,143.04 423.46,146.35 435.76,138.08 448.07,148 460.37,148 472.68,146.35 484.98,148 497.29,148 509.59,144.69 521.9,144.69 534.2,146.35 546.51,146.35 558.81,146.35 571.12,148 583.42,148 595.73,116.58 608.03,139.73 620.34,141.38 632.64,129.81 644.95,138.08 657.25,148 669.56,148 681.86,138.08 694.17,146.35 706.47,146.35 718.78,141.38 731.08,106.65 743.39,148 755.69,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-blue" points="42,148 54.31,144.69 66.61,146.35 78.92,148 91.22,148 103.53,148 115.83,146.35 128.14,138.08 140.44,144.69 152.75,148 165.05,139.73 177.36,136.42 189.66,133.12 201.97,148 214.27,134.77 226.58,146.35 238.88,144.69 251.19,113.27 263.49,146.35 275.8,129.81 288.1,148 300.41,144.69 312.71,144.69 325.02,138.08 337.32,141.38 349.63,148 361.93,141.38 374.24,148 386.54,136.42 398.85,143.04 411.15,144.69 423.46,143.04 435.76,146.35 448.07,148 460.37,148 472.68,144.69 484.98,148 497.29,148 509.59,148 521.9,148 534.2,146.35 546.51,146.35 558.81,146.35 571.12,148 583.42,148 595.73,143.04 608.03,141.38 620.34,148 632.64,143.04 644.95,144.69 657.25,148 669.56,148 681.86,136.42 694.17,146.35 706.47,148 718.78,128.15 731.08,128.15 743.39,148 755.69,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="7 4" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-orange" points="42,146.35 54.31,148 66.61,63.65 78.92,138.08 91.22,148 103.53,113.27 115.83,108.31 128.14,108.31 140.44,103.35 152.75,108.31 165.05,119.88 177.36,118.23 189.66,124.85 201.97,148 214.27,111.62 226.58,133.12 238.88,126.5 251.19,119.88 263.49,123.19 275.8,114.92 288.1,101.69 300.41,114.92 312.71,136.42 325.02,108.31 337.32,86.81 349.63,96.73 361.93,96.73 374.24,90.12 386.54,108.31 398.85,101.69 411.15,129.81 423.46,119.88 435.76,111.62 448.07,114.92 460.37,91.77 472.68,121.54 484.98,128.15 497.29,128.15 509.59,108.31 521.9,113.27 534.2,131.46 546.51,148 558.81,148 571.12,148 583.42,148 595.73,148 608.03,100.04 620.34,143.04 632.64,128.15 644.95,129.81 657.25,143.04 669.56,141.38 681.86,148 694.17,126.5 706.47,133.12 718.78,143.04 731.08,148 743.39,148 755.69,148 768,146.35" fill="none" stroke-width="2.5" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text class="muted" x="42" y="170" text-anchor="middle" font-size="12">8/4</text><text class="muted" x="398.85" y="170" text-anchor="middle" font-size="12">9/2</text><text class="muted" x="768" y="170" text-anchor="middle" font-size="12">10/2</text>
+    <polyline class="line-sky" points="42,141.38 54.31,143.04 66.61,146.35 78.92,148 91.22,143.04 103.53,148 115.83,138.08 128.14,144.69 140.44,146.35 152.75,143.04 165.05,134.77 177.36,133.12 189.66,148 201.97,141.38 214.27,148 226.58,143.04 238.88,131.46 251.19,133.12 263.49,138.08 275.8,144.69 288.1,139.73 300.41,143.04 312.71,126.5 325.02,105 337.32,148 349.63,138.08 361.93,146.35 374.24,131.46 386.54,143.04 398.85,143.04 411.15,146.35 423.46,138.08 435.76,148 448.07,148 460.37,146.35 472.68,148 484.98,148 497.29,144.69 509.59,144.69 521.9,146.35 534.2,146.35 546.51,146.35 558.81,148 571.12,148 583.42,116.58 595.73,139.73 608.03,141.38 620.34,129.81 632.64,138.08 644.95,148 657.25,148 669.56,138.08 681.86,146.35 694.17,146.35 706.47,141.38 718.78,106.65 731.08,148 743.39,148 755.69,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-blue" points="42,144.69 54.31,146.35 66.61,148 78.92,148 91.22,148 103.53,146.35 115.83,138.08 128.14,144.69 140.44,148 152.75,139.73 165.05,136.42 177.36,133.12 189.66,148 201.97,134.77 214.27,146.35 226.58,144.69 238.88,113.27 251.19,146.35 263.49,129.81 275.8,148 288.1,144.69 300.41,144.69 312.71,138.08 325.02,141.38 337.32,148 349.63,141.38 361.93,148 374.24,136.42 386.54,143.04 398.85,144.69 411.15,143.04 423.46,146.35 435.76,148 448.07,148 460.37,144.69 472.68,148 484.98,148 497.29,148 509.59,148 521.9,146.35 534.2,146.35 546.51,146.35 558.81,148 571.12,148 583.42,143.04 595.73,141.38 608.03,148 620.34,143.04 632.64,144.69 644.95,148 657.25,148 669.56,136.42 681.86,146.35 694.17,148 706.47,128.15 718.78,128.15 731.08,148 743.39,148 755.69,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="7 4" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-orange" points="42,148 54.31,63.65 66.61,138.08 78.92,148 91.22,113.27 103.53,108.31 115.83,108.31 128.14,103.35 140.44,108.31 152.75,119.88 165.05,118.23 177.36,124.85 189.66,148 201.97,111.62 214.27,133.12 226.58,126.5 238.88,119.88 251.19,123.19 263.49,114.92 275.8,101.69 288.1,114.92 300.41,136.42 312.71,108.31 325.02,86.81 337.32,96.73 349.63,96.73 361.93,90.12 374.24,108.31 386.54,101.69 398.85,129.81 411.15,119.88 423.46,111.62 435.76,114.92 448.07,91.77 460.37,121.54 472.68,128.15 484.98,128.15 497.29,108.31 509.59,113.27 521.9,131.46 534.2,148 546.51,148 558.81,148 571.12,148 583.42,148 595.73,100.04 608.03,143.04 620.34,128.15 632.64,129.81 644.95,143.04 657.25,141.38 669.56,148 681.86,126.5 694.17,133.12 706.47,143.04 718.78,148 731.08,148 743.39,148 755.69,146.35 768,148" fill="none" stroke-width="2.5" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="muted" x="42" y="170" text-anchor="middle" font-size="12">8/5</text><text class="muted" x="398.85" y="170" text-anchor="middle" font-size="12">9/3</text><text class="muted" x="768" y="170" text-anchor="middle" font-size="12">10/3</text>
   </g><g transform="translate(28 448)">
     <text class="fg" x="0" y="18" font-size="17" font-weight="600">The last 7 days</text>
     
@@ -62,8 +62,8 @@
       <text class="muted" x="34" y="40" text-anchor="end" font-size="12">26</text><line class="rule" x1="42" y1="92" x2="768" y2="92"/>
       <text class="muted" x="34" y="96" text-anchor="end" font-size="12">13</text><line class="rule" x1="42" y1="148" x2="768" y2="148"/>
       <text class="muted" x="34" y="152" text-anchor="end" font-size="12">0</text>
-    <polyline class="line-sky" points="42,143.69 163,143.69 284,130.77 405,40.31 526,148 647,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-blue" points="42,143.69 163,148 284,96.31 405,96.31 526,148 647,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="7 4" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-orange" points="42,92 163,109.23 284,135.08 405,148 526,148 647,148 768,143.69" fill="none" stroke-width="2.5" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text class="muted" x="42" y="170" text-anchor="middle" font-size="12">9/26</text><text class="muted" x="163" y="170" text-anchor="middle" font-size="12">9/27</text><text class="muted" x="284" y="170" text-anchor="middle" font-size="12">9/28</text><text class="muted" x="405" y="170" text-anchor="middle" font-size="12">9/29</text><text class="muted" x="526" y="170" text-anchor="middle" font-size="12">9/30</text><text class="muted" x="647" y="170" text-anchor="middle" font-size="12">10/1</text><text class="muted" x="768" y="170" text-anchor="middle" font-size="12">10/2</text>
+    <polyline class="line-sky" points="42,143.69 163,130.77 284,40.31 405,148 526,148 647,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-blue" points="42,148 163,96.31 284,96.31 405,148 526,148 647,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="7 4" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-orange" points="42,109.23 163,135.08 284,148 405,148 526,148 647,143.69 768,148" fill="none" stroke-width="2.5" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="muted" x="42" y="170" text-anchor="middle" font-size="12">9/27</text><text class="muted" x="163" y="170" text-anchor="middle" font-size="12">9/28</text><text class="muted" x="284" y="170" text-anchor="middle" font-size="12">9/29</text><text class="muted" x="405" y="170" text-anchor="middle" font-size="12">9/30</text><text class="muted" x="526" y="170" text-anchor="middle" font-size="12">10/1</text><text class="muted" x="647" y="170" text-anchor="middle" font-size="12">10/2</text><text class="muted" x="768" y="170" text-anchor="middle" font-size="12">10/3</text>
   </g>
   <line class="rule" x1="28" y1="648" x2="812" y2="648"/>
   <text class="fg" x="28" y="671" font-size="14" font-weight="600">RECENT PUBLIC WORK</text>
@@ -228,7 +228,7 @@
         <text class="muted" x="64" y="40" font-size="12">Lua</text>
         <text class="muted" x="64" y="57" font-size="12">3 commits · 0 PRs</text>
       </g>
-  <text class="muted" x="28" y="1350" font-size="12">Updated Oct 2, 2026 · GitHub contribution counts</text>
+  <text class="muted" x="28" y="1350" font-size="12">Updated Oct 3, 2026 · GitHub contribution counts</text>
   <text class="muted" x="28" y="1372" font-size="12">Totals may include private activity; repository names are public only.</text>
   <text class="muted" x="28" y="1392" font-size="12">Reviews count distinct PRs per day; summaries deduplicate across the period.</text>
 </svg>
