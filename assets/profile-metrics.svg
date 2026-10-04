@@ -1,6 +1,6 @@
-<svg width="840" height="1412" viewBox="0 0 840 1412" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="840" height="1492" viewBox="0 0 840 1492" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">JATMN — building, contributing, reviewing</title>
-  <desc id="desc">Last 30 days: 97 commits, 53 pull requests opened, and 126 distinct PRs reviewed. Past-year totals appear below each figure. Both charts show separate daily commit, opened pull request, and reviewed-PR counts. Reviews count distinct PRs in each daily or summary window. Only public repository names are shown.</desc>
+  <desc id="desc">Last 30 days: 98 commits, 51 pull requests opened, and 121 distinct PRs reviewed. Past-year totals appear below each figure. Both charts show separate daily commit, opened pull request, and reviewed-PR counts. Reviews count distinct PRs in each daily or summary window. Only public repository names are shown.</desc>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .canvas { fill: #B9E2FC; }
@@ -16,8 +16,8 @@
     .line-blue { stroke: #153F66; }
     .line-orange { stroke: #FFC18F; }
   </style>
-  <rect class="canvas" x=".5" y=".5" width="839" height="1411" rx="16"/>
-  <rect class="frame" x=".5" y=".5" width="839" height="1411" rx="16"/>
+  <rect class="canvas" x=".5" y=".5" width="839" height="1491" rx="16"/>
+  <rect class="frame" x=".5" y=".5" width="839" height="1491" rx="16"/>
   <text class="fg" x="28" y="40" font-size="24" font-weight="700">Building. Contributing. Reviewing.</text>
   <text class="muted" x="28" y="68" font-size="14">LAST 30 DAYS</text>
   <text class="muted" x="812" y="68" text-anchor="end" font-size="14">7 repos with commits</text>
@@ -26,21 +26,21 @@
       <rect class="card" width="252" height="132" rx="14"/>
       <circle class="sky" cx="20" cy="25" r="4"/>
       <text class="muted" x="32" y="30" font-size="15">Commits</text>
-      <text class="fg" x="20" y="82" font-size="40" font-weight="700">97</text>
-      <text class="muted" x="20" y="111" font-size="13">604 in the past year</text>
+      <text class="fg" x="20" y="82" font-size="40" font-weight="700">98</text>
+      <text class="muted" x="20" y="111" font-size="13">606 in the past year</text>
     </g>
     <g transform="translate(294 94)">
       <rect class="card" width="252" height="132" rx="14"/>
       <circle class="blue" cx="20" cy="25" r="4"/>
       <text class="muted" x="32" y="30" font-size="15">Pull requests opened</text>
-      <text class="fg" x="20" y="82" font-size="40" font-weight="700">53</text>
-      <text class="muted" x="20" y="111" font-size="13">301 in the past year</text>
+      <text class="fg" x="20" y="82" font-size="40" font-weight="700">51</text>
+      <text class="muted" x="20" y="111" font-size="13">302 in the past year</text>
     </g>
     <g transform="translate(560 94)">
       <rect class="card" width="252" height="132" rx="14"/>
       <circle class="orange" cx="20" cy="25" r="4"/>
       <text class="muted" x="32" y="30" font-size="15">PRs reviewed</text>
-      <text class="fg" x="20" y="82" font-size="40" font-weight="700">126</text>
+      <text class="fg" x="20" y="82" font-size="40" font-weight="700">121</text>
       <text class="muted" x="20" y="111" font-size="13">959 in the past year</text>
     </g>
   <g transform="translate(28 250)">
@@ -53,8 +53,8 @@
       <text class="muted" x="34" y="66" text-anchor="end" font-size="12">52</text><line class="rule" x1="42" y1="105" x2="768" y2="105"/>
       <text class="muted" x="34" y="109" text-anchor="end" font-size="12">26</text><line class="rule" x1="42" y1="148" x2="768" y2="148"/>
       <text class="muted" x="34" y="152" text-anchor="end" font-size="12">0</text>
-    <polyline class="line-sky" points="42,141.38 54.31,143.04 66.61,146.35 78.92,148 91.22,143.04 103.53,148 115.83,138.08 128.14,144.69 140.44,146.35 152.75,143.04 165.05,134.77 177.36,133.12 189.66,148 201.97,141.38 214.27,148 226.58,143.04 238.88,131.46 251.19,133.12 263.49,138.08 275.8,144.69 288.1,139.73 300.41,143.04 312.71,126.5 325.02,105 337.32,148 349.63,138.08 361.93,146.35 374.24,131.46 386.54,143.04 398.85,143.04 411.15,146.35 423.46,138.08 435.76,148 448.07,148 460.37,146.35 472.68,148 484.98,148 497.29,144.69 509.59,144.69 521.9,146.35 534.2,146.35 546.51,146.35 558.81,148 571.12,148 583.42,116.58 595.73,139.73 608.03,141.38 620.34,129.81 632.64,138.08 644.95,148 657.25,148 669.56,138.08 681.86,146.35 694.17,146.35 706.47,141.38 718.78,106.65 731.08,148 743.39,148 755.69,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-blue" points="42,144.69 54.31,146.35 66.61,148 78.92,148 91.22,148 103.53,146.35 115.83,138.08 128.14,144.69 140.44,148 152.75,139.73 165.05,136.42 177.36,133.12 189.66,148 201.97,134.77 214.27,146.35 226.58,144.69 238.88,113.27 251.19,146.35 263.49,129.81 275.8,148 288.1,144.69 300.41,144.69 312.71,138.08 325.02,141.38 337.32,148 349.63,141.38 361.93,148 374.24,136.42 386.54,143.04 398.85,144.69 411.15,143.04 423.46,146.35 435.76,148 448.07,148 460.37,144.69 472.68,148 484.98,148 497.29,148 509.59,148 521.9,146.35 534.2,146.35 546.51,146.35 558.81,148 571.12,148 583.42,143.04 595.73,141.38 608.03,148 620.34,143.04 632.64,144.69 644.95,148 657.25,148 669.56,136.42 681.86,146.35 694.17,148 706.47,128.15 718.78,128.15 731.08,148 743.39,148 755.69,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="7 4" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-orange" points="42,148 54.31,63.65 66.61,138.08 78.92,148 91.22,113.27 103.53,108.31 115.83,108.31 128.14,103.35 140.44,108.31 152.75,119.88 165.05,118.23 177.36,124.85 189.66,148 201.97,111.62 214.27,133.12 226.58,126.5 238.88,119.88 251.19,123.19 263.49,114.92 275.8,101.69 288.1,114.92 300.41,136.42 312.71,108.31 325.02,86.81 337.32,96.73 349.63,96.73 361.93,90.12 374.24,108.31 386.54,101.69 398.85,129.81 411.15,119.88 423.46,111.62 435.76,114.92 448.07,91.77 460.37,121.54 472.68,128.15 484.98,128.15 497.29,108.31 509.59,113.27 521.9,131.46 534.2,148 546.51,148 558.81,148 571.12,148 583.42,148 595.73,100.04 608.03,143.04 620.34,128.15 632.64,129.81 644.95,143.04 657.25,141.38 669.56,148 681.86,126.5 694.17,133.12 706.47,143.04 718.78,148 731.08,148 743.39,148 755.69,146.35 768,148" fill="none" stroke-width="2.5" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text class="muted" x="42" y="170" text-anchor="middle" font-size="12">8/5</text><text class="muted" x="398.85" y="170" text-anchor="middle" font-size="12">9/3</text><text class="muted" x="768" y="170" text-anchor="middle" font-size="12">10/3</text>
+    <polyline class="line-sky" points="42,143.04 54.31,146.35 66.61,148 78.92,143.04 91.22,148 103.53,138.08 115.83,144.69 128.14,146.35 140.44,143.04 152.75,134.77 165.05,133.12 177.36,148 189.66,141.38 201.97,148 214.27,143.04 226.58,131.46 238.88,133.12 251.19,138.08 263.49,144.69 275.8,139.73 288.1,143.04 300.41,126.5 312.71,105 325.02,148 337.32,138.08 349.63,146.35 361.93,131.46 374.24,143.04 386.54,143.04 398.85,146.35 411.15,138.08 423.46,148 435.76,148 448.07,146.35 460.37,148 472.68,148 484.98,144.69 497.29,144.69 509.59,146.35 521.9,146.35 534.2,146.35 546.51,148 558.81,148 571.12,116.58 583.42,139.73 595.73,141.38 608.03,129.81 620.34,138.08 632.64,148 644.95,148 657.25,138.08 669.56,146.35 681.86,146.35 694.17,141.38 706.47,106.65 718.78,148 731.08,148 743.39,148 755.69,144.69 768,148" fill="none" stroke-width="2.5" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-blue" points="42,146.35 54.31,148 66.61,148 78.92,148 91.22,146.35 103.53,138.08 115.83,144.69 128.14,148 140.44,139.73 152.75,136.42 165.05,133.12 177.36,148 189.66,134.77 201.97,146.35 214.27,144.69 226.58,113.27 238.88,146.35 251.19,129.81 263.49,148 275.8,144.69 288.1,144.69 300.41,138.08 312.71,141.38 325.02,148 337.32,141.38 349.63,148 361.93,136.42 374.24,143.04 386.54,144.69 398.85,143.04 411.15,146.35 423.46,148 435.76,148 448.07,144.69 460.37,148 472.68,148 484.98,148 497.29,148 509.59,146.35 521.9,146.35 534.2,146.35 546.51,148 558.81,148 571.12,143.04 583.42,141.38 595.73,148 608.03,143.04 620.34,144.69 632.64,148 644.95,148 657.25,136.42 669.56,146.35 681.86,148 694.17,128.15 706.47,128.15 718.78,148 731.08,148 743.39,148 755.69,146.35 768,148" fill="none" stroke-width="2.5" stroke-dasharray="7 4" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-orange" points="42,63.65 54.31,138.08 66.61,148 78.92,113.27 91.22,108.31 103.53,108.31 115.83,103.35 128.14,108.31 140.44,119.88 152.75,118.23 165.05,124.85 177.36,148 189.66,111.62 201.97,133.12 214.27,126.5 226.58,119.88 238.88,123.19 251.19,114.92 263.49,101.69 275.8,114.92 288.1,136.42 300.41,108.31 312.71,86.81 325.02,96.73 337.32,96.73 349.63,90.12 361.93,108.31 374.24,101.69 386.54,129.81 398.85,119.88 411.15,111.62 423.46,114.92 435.76,91.77 448.07,121.54 460.37,128.15 472.68,128.15 484.98,108.31 497.29,113.27 509.59,131.46 521.9,148 534.2,148 546.51,148 558.81,148 571.12,148 583.42,100.04 595.73,143.04 608.03,128.15 620.34,129.81 632.64,143.04 644.95,141.38 657.25,148 669.56,126.5 681.86,133.12 694.17,143.04 706.47,148 718.78,148 731.08,148 743.39,146.35 755.69,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="muted" x="42" y="170" text-anchor="middle" font-size="12">8/6</text><text class="muted" x="398.85" y="170" text-anchor="middle" font-size="12">9/4</text><text class="muted" x="768" y="170" text-anchor="middle" font-size="12">10/4</text>
   </g><g transform="translate(28 448)">
     <text class="fg" x="0" y="18" font-size="17" font-weight="600">The last 7 days</text>
     
@@ -62,8 +62,8 @@
       <text class="muted" x="34" y="40" text-anchor="end" font-size="12">26</text><line class="rule" x1="42" y1="92" x2="768" y2="92"/>
       <text class="muted" x="34" y="96" text-anchor="end" font-size="12">13</text><line class="rule" x1="42" y1="148" x2="768" y2="148"/>
       <text class="muted" x="34" y="152" text-anchor="end" font-size="12">0</text>
-    <polyline class="line-sky" points="42,143.69 163,130.77 284,40.31 405,148 526,148 647,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-blue" points="42,148 163,96.31 284,96.31 405,148 526,148 647,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="7 4" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-orange" points="42,109.23 163,135.08 284,148 405,148 526,148 647,143.69 768,148" fill="none" stroke-width="2.5" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text class="muted" x="42" y="170" text-anchor="middle" font-size="12">9/27</text><text class="muted" x="163" y="170" text-anchor="middle" font-size="12">9/28</text><text class="muted" x="284" y="170" text-anchor="middle" font-size="12">9/29</text><text class="muted" x="405" y="170" text-anchor="middle" font-size="12">9/30</text><text class="muted" x="526" y="170" text-anchor="middle" font-size="12">10/1</text><text class="muted" x="647" y="170" text-anchor="middle" font-size="12">10/2</text><text class="muted" x="768" y="170" text-anchor="middle" font-size="12">10/3</text>
+    <polyline class="line-sky" points="42,130.77 163,40.31 284,148 405,148 526,148 647,139.38 768,148" fill="none" stroke-width="2.5" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-blue" points="42,96.31 163,96.31 284,148 405,148 526,148 647,143.69 768,148" fill="none" stroke-width="2.5" stroke-dasharray="7 4" stroke-linecap="round" stroke-linejoin="round"/><polyline class="line-orange" points="42,135.08 163,148 284,148 405,148 526,143.69 647,148 768,148" fill="none" stroke-width="2.5" stroke-dasharray="2 4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="muted" x="42" y="170" text-anchor="middle" font-size="12">9/28</text><text class="muted" x="163" y="170" text-anchor="middle" font-size="12">9/29</text><text class="muted" x="284" y="170" text-anchor="middle" font-size="12">9/30</text><text class="muted" x="405" y="170" text-anchor="middle" font-size="12">10/1</text><text class="muted" x="526" y="170" text-anchor="middle" font-size="12">10/2</text><text class="muted" x="647" y="170" text-anchor="middle" font-size="12">10/3</text><text class="muted" x="768" y="170" text-anchor="middle" font-size="12">10/4</text>
   </g>
   <line class="rule" x1="28" y1="648" x2="812" y2="648"/>
   <text class="fg" x="28" y="671" font-size="14" font-weight="600">RECENT PUBLIC WORK</text>
@@ -82,13 +82,23 @@
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
+          <image href="data:image/jpeg;base64,/9j/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAFAAUAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APTABSgVAZaBLXLY1LQxR3quZgBk1xnjfxfP4ctUNtNGbiVmXy5BkKOxGPT+tCi27IDt7i6htIHmmkVI0GSSa5e38eWT301tcQtAY9xBY9VAyDggdq8Tm8Z69coq3OoyPBLJ8yPjbntj0rMfVJxcKzy9sAnsOePpzWyovqLmR9J6d4gg1EkLBNGRjO8dj0NR6V4l03XXuRp85lFu/luSpHPtnqK8p8EeJTJrNlCHm86VzHI0kuVdeygdsdR9Md69Ot4LTTLqSK1t44UuP3uI0ABccN09Rj8jUOPKx7myZBjrUbSj1qk1x71E0/vQBaZ2pN7e9OnUQxFgoLNwB6moYpkfKbDlTg7QSM/Wp0A5rxFr1xFZ3EJt7i3KsQkpOA5HTHtXndtpdz4ole9vi8cEZKgbs7zXc+PZ449Om8xC0szeSmcjYm0McfiD/kVzdv8Ab9I8LWYiiiEbqXDSZ5yc5rXVQ93dlU0nL3tjD1TwxbCLy4Bsxgg9TmueuNFnjjJxvK/rXcxT3F1pxvJBE2Gx8mcVzb3V3cXbBLmNFB+7szShKezZtUhC10iLwrM1lrFuszLGRKrAuQvQ56GvYpdat5dNN/ljDC5IcdDj5SR7ckV4v4ms5bafT7p8CV/lLJ3x0Neu+GbNF0C080l/MUSAOcgFjzx9O/ufWibukznSs2jRGq281q08cczBV3fLG3P5/wA+nvTorjzolkAKhhkA9ajOo2sMs9vOhg8iQKpkGN27pt/z0FSIwCEkD5ucH+H2qLjNi4kaZi8akgHZHgfm1WLa3EUQGK5GXWr8XD/ZpWjhBwq4Bpn9vasp/wCPnJ90quULMveNtAl1mxha3GZYS3y+oIrndd0lrnS7a1mkKRpDGu30wB0/KtR9d1Zvv3O4dMeUB/Kl8TRzPDby2irIrKg56Yx1prmaSXQ1pRSvzI56aGy0rRktYpA21sy8E4JGfx/CuZbR7O7lSdWIz8w4x+hrU1ixmkO+4eQsRwHbGPwFZMUV7G0axsdgYZD88fzq1TaV09TSUujWha1TSXuLaxii3PicIOpJyD/hXq2m2gttPsraXnyERSQcYwB3FcppcF0Ujmt0UyRHcu4ZXPTnn0JrVN9rzZ/d2Q2nB+Vq5p1EvdbIlTbd0jO8ZRwaNdx3UsNzqsk5Y7JJAqAZ/vDOeTXQ2032iyhmMRiMiK5jbquRnFYd1qOrbGSe2sJEPVWViDTbTxHcyajBbXcECJK23emeD2/WlzqSM3BxJAjhcKtKqMrAuBxXpOl+B9MSKKWSNnDLyCxHNaQ8IaQBgQv/AN913Nw2I5zyd3yvQVpaZKl7YSWUgPmwq0keBnK9x+BP6+1egzeDdKaNgiOrY4JbiuPu9Lj0nxBbraO2ZFly3qAp5/MiiKi3oh+0b2PO/Ea2pmDOxZ/9mqFvJCCmCMZ6V0viKyiut03lL5vcgYya5ZLUIeRitmo8g7z5j1vwnpkF54f8+PJLOQG25zitKXS4Le6lDAbXVWX5Mc8g/wAhXK+BfFFjpNjcWOouyxlvMiIBPOMEfoK6y/vLe4uLOaE5V1ZQQ2DyM8/98152IpU1By6m1KdTn5XsZ13owmiOArH0CVxWt6LMkb7Uwy/Mp6EEV6ZG4XG5m/76FUdTtIbqN23Nk/7Q5rgi7ao6ZLm0Z6D+FFLVPUNUstLh829uUhXsGPJ+g6mvXSbdkeTexcFcD4hlU+JN5uYpWhgZNqfwEkdfTgU4eMbvXdQ+z6XEYLJD+9mf7zD0Hpmuci0O8tpJWkuUcsxJPOT79K6VRcE3LcUJKUr9DK1X7zKD1rnpLWQnCqSSeAO9dVPpsZkLSyue/Ax+tOgttg/cw7fVj1/Os3dHW5xMnTNE2FZboZbqsfYfX/CtPVLA3lg8SnEuMow6qa0be1JkAPXqfYVJAvmM57VizNts8nvL/VtIvHgmblTyrj+o7VJB4ndnAnjIUnkox4/A13vi3w6uraG13DHm7tl7dXTuP6j/AOvXkUiGNiK0VOnNbGbqTj1P/9k=" width="40" height="40"><title>milind-soni GitHub avatar</title></image>
+        </svg>
+        <text class="fg" x="64" y="22" font-size="14" font-weight="600"><title>milind-soni/OpenMausBot</title>milind-soni/OpenMausBot</text>
+        <text class="muted" x="64" y="40" font-size="12">TypeScript</text>
+        <text class="muted" x="64" y="57" font-size="12">0 commits · 1 PRs</text>
+      </g>
+<g transform="translate(28 766)">
+        <rect class="card" width="384" height="68" rx="10"/>
+        <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
+          <rect class="blue" width="40" height="40" rx="8"/>
           <image href="data:image/png;base64,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" width="40" height="40"><title>Twigpine GitHub avatar</title></image>
         </svg>
         <text class="fg" x="64" y="22" font-size="14" font-weight="600"><title>Twigpine/openclaude</title>Twigpine/openclaude</text>
         <text class="muted" x="64" y="40" font-size="12">TypeScript</text>
         <text class="muted" x="64" y="57" font-size="12">150 commits · 145 PRs</text>
       </g>
-<g transform="translate(28 766)">
+<g transform="translate(428 766)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -98,7 +108,7 @@
         <text class="muted" x="64" y="40" font-size="12">Go</text>
         <text class="muted" x="64" y="57" font-size="12">2 commits · 7 PRs</text>
       </g>
-<g transform="translate(428 766)">
+<g transform="translate(28 846)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -108,7 +118,17 @@
         <text class="muted" x="64" y="40" font-size="12">C++</text>
         <text class="muted" x="64" y="57" font-size="12">0 commits · 12 PRs</text>
       </g>
-<g transform="translate(28 846)">
+<g transform="translate(428 846)">
+        <rect class="card" width="384" height="68" rx="10"/>
+        <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
+          <rect class="blue" width="40" height="40" rx="8"/>
+          <image href="data:image/jpeg;base64,/9j/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAFAAUAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AOhu9NtLwYuLaKX/AH0BrDuvBumTZ8pZbc/9M34/I5rJtfibbyELcWg+sUoz+R/xrYg8b6HPgNNJAT2ljP8ATNedZrc9O/Y5++8BzgE291FKPSRCp/MZ/lXHXVrJptw9vKFV+5DbgB+Fema94itYdKaa0nWXd8qNGQwLehGfTr+FeUXcjzuZZZPnc7juO3PvVwjcznNoalok8o2JPNt5couQf8PxqCRYWuBvkfylPK7ef5mpXUHHylcDkheKoSRkSFgAQe4OMfUZrdRRg5M7DUn0u68MbdNZcQsGZf4hkHk1ybQRnBKkZAO5TzVQlkJAbkcfeq/byrKiochgpBz9SamUXHVFRmpaMqyQuDxhx+Rq1pGlXer3otbVfmxli3AUepqRowYiDyRz/KtzwWfJ8RooJxKjJ+mf6UufQrk1O5tvAujTWEZurZWnIyzxsV/rUEnw603/AJYXV1F/wINiupsfM8g72UqDhQBgius0TwzpuoaKl1KJVmZn3MkhH8R7dKqKcmTKSirngfiTSW0lbWwjl80Dc5crjOTj+lVYdMvLmJDCN7OdoVh1PT613PxG8NT2us3DWR86O1jDeWzfvHU/McYGDjP+cGs3wNfWF9P/AKbfR2phI2W8jBGc/U9hxwP6c5Sk4p26FxjzNX6k6fDe8aFPNnh37ctgcZ9AO2Ky9R+HF5HHKYI0kI4BAyW/UcV6deatLZJ5r6fNJajlpYWDlR67ev5UtpqdhqduZ7K6jnj77DyvsR1B+tcqrVFqdvsaT0seFXvw/wBYtoRI8cabvuq0n/1v61z9qslvevFN8joxVgccEV9B+IVX+z+cZ3jFeNaraqviO/dAOArfjsXP8zXVSrOcXzHNWw8YNOBVXY7kFsZXH6j+mau6BMINcsJCcDzlB/Hj+RrPaFWcDYFz3QkU1A0M6lXbcjcZGe/rTRDbTPeLXiD/AIEa67w5NcrpAEchCCRhj8a4+2P7nPvXf+DNraM+QMidx/Kt6WjOWtqjmvGtpI3iKE/MI3ZHkZVDEKQEA9hw2fr6Vhaf4d03UfD0Fte2kTsAfmKjKknsa7LxvYXMl5YXdpciFlWRJVwDvTGRwfRsc+/vWBYyLCirjCkfrXBiU4zdmelhZKdNXW2hgHwNbWzQfY7+5txGoEnksMycepzg55PFU00KXRNRjmsEku7yQHcH+RSo67nHP6H6V2E13ZiXy5JYg/ozAVRuNZsrR/LZmIPR1IYfTrmsvaSe50KnFbHmtzf61rN09zdxzx2wI2RR3IQKCfZQT7nP+FYLN517IDFJGXQ48xskgAgc9e3evQ7W0S/1UQxk+TJIT06L1/lXO+MLJdP8RRRR52Iqxrn0wP6Gui/u6I5Zq07N3OWVdzgevH51HInzufxH4jNTcq3HarF1DEiqYzk9G/IY/kauO5nLY9Ue/tdN0/z7yZYYgcbmqhqHxei8OaC9tojRXF3LKWEh5VAQBn9O9eSavrN7rL5uZPkGdqDoKyljIBjY5B6GuqMbHHOVz2j4c61d+Ir/AFPVNUvZbm/AWICRshIyc4UdgSP0Fat7cvol0EuCfssjZjk/u8/db9Oa8h8I+IX8O63FeYJhb93Og7qeuPcda9ym+xa7pYMciTQTruRxyDXDiYuNS72Z6OEkpU7LdFbT4rG/Ml0Y0MzMfm9vT6Vg67LZypPbmFojGfmd0UDHqCtZVyNT8Ps8dogkjQk+WxwV+h9PrXF+J9fvpolt508t5l3sM8gE9P0pU6TlLRl1K3JH3kQX3ivUbe9QaZqE8SRAqJEbBfnnPqOlQz+LNT1GdJNRlFwy8ByoDdvT6VgDijpXo+zja1jynUlzc1zrVnjnBkjOVJOKdO/CZPXr9cf/AK653TrswThGPyN19q6VpVFgylSSy9R2OSP8K5KkXTlodKqOUbrc5xGPKt94d/Wmu2x1J+6eKXIJDDt/Km3AzEfbmu05BSMMf9r+dbWgeLNT0CTbbyboQ+5oX5Un1HpkVhIxeE/3l6UMchZV/Ee1KUVJWY4ycXeJ3Ot/ENb9RJHYlZAoG15MqD+A5rgLi4mvLl7idy8jdSanaNJBnHX0pYbOSdnEUZIAxnoB9TUwpxhsXUqzqfEyKSPMSMOoHNJMnyq47gA1ZKBQE3BsDBIFRN/qSvcCrMiqD3rdsrkzWJQtl1B6/n/SsNF3DA6mprWYQXAYfd6H3qKkOZGlOfKz/9k=" width="40" height="40"><title>jatmn GitHub avatar</title></image>
+        </svg>
+        <text class="fg" x="64" y="22" font-size="14" font-weight="600"><title>jatmn/Codex-warp</title>jatmn/Codex-warp</text>
+        <text class="muted" x="64" y="40" font-size="12">Rust</text>
+        <text class="muted" x="64" y="57" font-size="12">103 commits · 101 PRs</text>
+      </g>
+<g transform="translate(28 926)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -118,17 +138,7 @@
         <text class="muted" x="64" y="40" font-size="12">TypeScript</text>
         <text class="muted" x="64" y="57" font-size="12">24 commits · 6 PRs</text>
       </g>
-<g transform="translate(428 846)">
-        <rect class="card" width="384" height="68" rx="10"/>
-        <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
-          <rect class="blue" width="40" height="40" rx="8"/>
-          <image href="data:image/jpeg;base64,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" width="40" height="40"><title>jatmn GitHub avatar</title></image>
-        </svg>
-        <text class="fg" x="64" y="22" font-size="14" font-weight="600"><title>jatmn/Codex-warp</title>jatmn/Codex-warp</text>
-        <text class="muted" x="64" y="40" font-size="12">Rust</text>
-        <text class="muted" x="64" y="57" font-size="12">101 commits · 101 PRs</text>
-      </g>
-<g transform="translate(28 926)">
+<g transform="translate(428 926)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -138,7 +148,7 @@
         <text class="muted" x="64" y="40" font-size="12">C</text>
         <text class="muted" x="64" y="57" font-size="12">285 commits · 16 PRs</text>
       </g>
-<g transform="translate(428 926)">
+<g transform="translate(28 1006)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -148,7 +158,7 @@
         <text class="muted" x="64" y="40" font-size="12">TypeScript</text>
         <text class="muted" x="64" y="57" font-size="12">0 commits · 1 PRs</text>
       </g>
-<g transform="translate(28 1006)">
+<g transform="translate(428 1006)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -158,7 +168,7 @@
         <text class="muted" x="64" y="40" font-size="12">PowerShell</text>
         <text class="muted" x="64" y="57" font-size="12">5 commits · 0 PRs</text>
       </g>
-<g transform="translate(428 1006)">
+<g transform="translate(28 1086)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -168,7 +178,7 @@
         <text class="muted" x="64" y="40" font-size="12">Lua</text>
         <text class="muted" x="64" y="57" font-size="12">5 commits · 0 PRs</text>
       </g>
-<g transform="translate(28 1086)">
+<g transform="translate(428 1086)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -178,7 +188,7 @@
         <text class="muted" x="64" y="40" font-size="12">Lua</text>
         <text class="muted" x="64" y="57" font-size="12">1 commits · 0 PRs</text>
       </g>
-<g transform="translate(428 1086)">
+<g transform="translate(28 1166)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -188,7 +198,7 @@
         <text class="muted" x="64" y="40" font-size="12">Lua</text>
         <text class="muted" x="64" y="57" font-size="12">2 commits · 0 PRs</text>
       </g>
-<g transform="translate(28 1166)">
+<g transform="translate(428 1166)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -198,7 +208,7 @@
         <text class="muted" x="64" y="40" font-size="12">Lua</text>
         <text class="muted" x="64" y="57" font-size="12">2 commits · 0 PRs</text>
       </g>
-<g transform="translate(428 1166)">
+<g transform="translate(28 1246)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -208,7 +218,7 @@
         <text class="muted" x="64" y="40" font-size="12">Lua</text>
         <text class="muted" x="64" y="57" font-size="12">2 commits · 0 PRs</text>
       </g>
-<g transform="translate(28 1246)">
+<g transform="translate(428 1246)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -218,7 +228,7 @@
         <text class="muted" x="64" y="40" font-size="12">Lua</text>
         <text class="muted" x="64" y="57" font-size="12">2 commits · 0 PRs</text>
       </g>
-<g transform="translate(428 1246)">
+<g transform="translate(28 1326)">
         <rect class="card" width="384" height="68" rx="10"/>
         <svg x="10" y="14" width="40" height="40" viewBox="0 0 40 40">
           <rect class="blue" width="40" height="40" rx="8"/>
@@ -228,7 +238,7 @@
         <text class="muted" x="64" y="40" font-size="12">Lua</text>
         <text class="muted" x="64" y="57" font-size="12">3 commits · 0 PRs</text>
       </g>
-  <text class="muted" x="28" y="1350" font-size="12">Updated Oct 3, 2026 · GitHub contribution counts</text>
-  <text class="muted" x="28" y="1372" font-size="12">Totals may include private activity; repository names are public only.</text>
-  <text class="muted" x="28" y="1392" font-size="12">Reviews count distinct PRs per day; summaries deduplicate across the period.</text>
+  <text class="muted" x="28" y="1430" font-size="12">Updated Oct 4, 2026 · GitHub contribution counts</text>
+  <text class="muted" x="28" y="1452" font-size="12">Totals may include private activity; repository names are public only.</text>
+  <text class="muted" x="28" y="1472" font-size="12">Reviews count distinct PRs per day; summaries deduplicate across the period.</text>
 </svg>
