@@ -5,37 +5,30 @@
   "websiteUrl": "http://jatmn.dev",
   "followers": 28,
   "following": 10,
-  "publicRepos": 27,
-  "updatedAt": "2026-10-08T19:15:57.315Z",
+  "publicRepos": 28,
+  "updatedAt": "2026-10-09T18:47:58.360Z",
   "privacy": {
     "contributionTotalsMayIncludePrivateActivity": true,
     "repositoryDetailsArePublicOnly": true
   },
   "contributions": {
-    "totalCommitContributions": 640,
-    "totalPullRequestContributions": 327,
-    "totalPullRequestReviewContributions": 960,
+    "totalCommitContributions": 664,
+    "totalPullRequestContributions": 347,
+    "totalPullRequestReviewContributions": 963,
     "totalIssueContributions": 18,
-    "totalRepositoriesWithContributedCommits": 17
+    "totalRepositoriesWithContributedCommits": 19
   },
   "contributionWindows": {
     "last30Days": {
-      "totalCommitContributions": 125,
-      "totalPullRequestContributions": 73,
-      "totalPullRequestReviewContributions": 89,
+      "totalCommitContributions": 149,
+      "totalPullRequestContributions": 93,
+      "totalPullRequestReviewContributions": 90,
       "totalIssueContributions": 4,
-      "totalRepositoriesWithContributedCommits": 9
+      "totalRepositoriesWithContributedCommits": 13
     }
   },
   "contributionTrends": {
     "last60Days": [
-      {
-        "date": "2026-08-10",
-        "count": 10,
-        "commits": 0,
-        "pullRequests": 1,
-        "reviews": 24
-      },
       {
         "date": "2026-08-11",
         "count": 30,
@@ -444,20 +437,20 @@
       },
       {
         "date": "2026-10-08",
-        "count": 22,
-        "commits": 7,
-        "pullRequests": 10,
+        "count": 82,
+        "commits": 30,
+        "pullRequests": 30,
         "reviews": 0
+      },
+      {
+        "date": "2026-10-09",
+        "count": 15,
+        "commits": 1,
+        "pullRequests": 0,
+        "reviews": 3
       }
     ],
     "last7Days": [
-      {
-        "date": "2026-10-02",
-        "count": 93,
-        "commits": 0,
-        "pullRequests": 0,
-        "reviews": 1
-      },
       {
         "date": "2026-10-03",
         "count": 22,
@@ -495,10 +488,17 @@
       },
       {
         "date": "2026-10-08",
-        "count": 22,
-        "commits": 7,
-        "pullRequests": 10,
+        "count": 82,
+        "commits": 30,
+        "pullRequests": 30,
         "reviews": 0
+      },
+      {
+        "date": "2026-10-09",
+        "count": 15,
+        "commits": 1,
+        "pullRequests": 0,
+        "reviews": 3
       }
     ]
   },
@@ -508,50 +508,16 @@
       "nameWithOwner": "Twigpine/openclaude",
       "url": "https://github.com/Twigpine/openclaude",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 33685,
-      "forkCount": 9105,
+      "stargazerCount": 33693,
+      "forkCount": 9107,
       "primaryLanguage": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-10-08T19:12:53Z",
+      "updatedAt": "2026-10-09T18:46:09Z",
       "contributionCounts": {
         "commits": 150,
         "pullRequests": 145
-      }
-    },
-    {
-      "name": "openbot",
-      "nameWithOwner": "nightly-labs/openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/100160810?s=80&v=4",
-      "stargazerCount": 466,
-      "forkCount": 64,
-      "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "updatedAt": "2026-10-08T19:11:36Z",
-      "contributionCounts": {
-        "commits": 1,
-        "pullRequests": 2
-      }
-    },
-    {
-      "name": "pnpm",
-      "nameWithOwner": "pnpm/pnpm",
-      "url": "https://github.com/pnpm/pnpm",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/21320719?s=80&v=4",
-      "stargazerCount": 36760,
-      "forkCount": 1910,
-      "primaryLanguage": {
-        "name": "Rust",
-        "color": "#dea584"
-      },
-      "updatedAt": "2026-10-08T19:09:32Z",
-      "contributionCounts": {
-        "commits": 4,
-        "pullRequests": 4
       }
     },
     {
@@ -559,15 +525,185 @@
       "nameWithOwner": "milind-soni/OpenMausBot",
       "url": "https://github.com/milind-soni/OpenMausBot",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/46266943?s=80&u=86f0b5eeb3763a41da307bcff2b53c7017992713&v=4",
-      "stargazerCount": 4209,
-      "forkCount": 722,
+      "stargazerCount": 4254,
+      "forkCount": 734,
       "primaryLanguage": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-10-08T18:56:03Z",
+      "updatedAt": "2026-10-09T18:37:28Z",
       "contributionCounts": {
         "commits": 0,
+        "pullRequests": 1
+      }
+    },
+    {
+      "name": "pnpm",
+      "nameWithOwner": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/21320719?s=80&v=4",
+      "stargazerCount": 36766,
+      "forkCount": 1915,
+      "primaryLanguage": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "updatedAt": "2026-10-09T18:05:48Z",
+      "contributionCounts": {
+        "commits": 4,
+        "pullRequests": 4
+      }
+    },
+    {
+      "name": "openbot",
+      "nameWithOwner": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/100160810?s=80&v=4",
+      "stargazerCount": 479,
+      "forkCount": 69,
+      "primaryLanguage": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "updatedAt": "2026-10-09T17:42:42Z",
+      "contributionCounts": {
+        "commits": 1,
+        "pullRequests": 2
+      }
+    },
+    {
+      "name": "yuoki-quinityn",
+      "nameWithOwner": "jatmn/yuoki-quinityn",
+      "url": "https://github.com/jatmn/yuoki-quinityn",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "Lua",
+        "color": "#000080"
+      },
+      "updatedAt": "2026-10-09T16:52:03Z",
+      "contributionCounts": {
+        "commits": 37,
+        "pullRequests": 20
+      }
+    },
+    {
+      "name": "CuraEngine",
+      "nameWithOwner": "Ultimaker/CuraEngine",
+      "url": "https://github.com/Ultimaker/CuraEngine",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/499557?s=80&v=4",
+      "stargazerCount": 1857,
+      "forkCount": 932,
+      "primaryLanguage": {
+        "name": "C++",
+        "color": "#f34b7d"
+      },
+      "updatedAt": "2026-10-09T07:21:47Z",
+      "contributionCounts": {
+        "commits": 0,
+        "pullRequests": 12
+      }
+    },
+    {
+      "name": "zero",
+      "nameWithOwner": "Twigpine/zero",
+      "url": "https://github.com/Twigpine/zero",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
+      "stargazerCount": 1698,
+      "forkCount": 197,
+      "primaryLanguage": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "updatedAt": "2026-10-09T05:26:58Z",
+      "contributionCounts": {
+        "commits": 2,
+        "pullRequests": 7
+      }
+    },
+    {
+      "name": "neon-convoy",
+      "nameWithOwner": "jatmn/neon-convoy",
+      "url": "https://github.com/jatmn/neon-convoy",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "updatedAt": "2026-10-09T02:09:49Z",
+      "contributionCounts": {
+        "commits": 26,
+        "pullRequests": 7
+      }
+    },
+    {
+      "name": "Aquilo-Make-Bots-Great-Again",
+      "nameWithOwner": "jatmn/Aquilo-Make-Bots-Great-Again",
+      "url": "https://github.com/jatmn/Aquilo-Make-Bots-Great-Again",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "Lua",
+        "color": "#000080"
+      },
+      "updatedAt": "2026-10-09T01:15:11Z",
+      "contributionCounts": {
+        "commits": 4,
+        "pullRequests": 2
+      }
+    },
+    {
+      "name": "promethium-asteroid-stacking",
+      "nameWithOwner": "jatmn/promethium-asteroid-stacking",
+      "url": "https://github.com/jatmn/promethium-asteroid-stacking",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "Lua",
+        "color": "#000080"
+      },
+      "updatedAt": "2026-10-09T00:13:27Z",
+      "contributionCounts": {
+        "commits": 4,
+        "pullRequests": 1
+      }
+    },
+    {
+      "name": "basic-robots-factorio",
+      "nameWithOwner": "jatmn/basic-robots-factorio",
+      "url": "https://github.com/jatmn/basic-robots-factorio",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "Lua",
+        "color": "#000080"
+      },
+      "updatedAt": "2026-10-09T00:06:27Z",
+      "contributionCounts": {
+        "commits": 1,
+        "pullRequests": 1
+      }
+    },
+    {
+      "name": "Factorio-Stone-Ammo",
+      "nameWithOwner": "jatmn/Factorio-Stone-Ammo",
+      "url": "https://github.com/jatmn/Factorio-Stone-Ammo",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "Lua",
+        "color": "#000080"
+      },
+      "updatedAt": "2026-10-08T23:59:28Z",
+      "contributionCounts": {
+        "commits": 2,
         "pullRequests": 1
       }
     },
@@ -582,10 +718,44 @@
         "name": "Lua",
         "color": "#000080"
       },
-      "updatedAt": "2026-10-08T18:45:07Z",
+      "updatedAt": "2026-10-08T22:44:52Z",
       "contributionCounts": {
-        "commits": 4,
-        "pullRequests": 3
+        "commits": 9,
+        "pullRequests": 6
+      }
+    },
+    {
+      "name": "Yuoki-Factorio-2.x",
+      "nameWithOwner": "jatmn/Yuoki-Factorio-2.x",
+      "url": "https://github.com/jatmn/Yuoki-Factorio-2.x",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
+      "stargazerCount": 1,
+      "forkCount": 4,
+      "primaryLanguage": {
+        "name": "Lua",
+        "color": "#000080"
+      },
+      "updatedAt": "2026-10-08T22:40:02Z",
+      "contributionCounts": {
+        "commits": 0,
+        "pullRequests": 7
+      }
+    },
+    {
+      "name": "Codex-warp",
+      "nameWithOwner": "jatmn/Codex-warp",
+      "url": "https://github.com/jatmn/Codex-warp",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
+      "stargazerCount": 1,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "updatedAt": "2026-10-08T20:24:42Z",
+      "contributionCounts": {
+        "commits": 105,
+        "pullRequests": 103
       }
     },
     {
@@ -606,91 +776,6 @@
       }
     },
     {
-      "name": "Codex-warp",
-      "nameWithOwner": "jatmn/Codex-warp",
-      "url": "https://github.com/jatmn/Codex-warp",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
-      "stargazerCount": 1,
-      "forkCount": 0,
-      "primaryLanguage": {
-        "name": "Rust",
-        "color": "#dea584"
-      },
-      "updatedAt": "2026-10-08T17:51:24Z",
-      "contributionCounts": {
-        "commits": 104,
-        "pullRequests": 102
-      }
-    },
-    {
-      "name": "Yuoki-Factorio-2.x",
-      "nameWithOwner": "jatmn/Yuoki-Factorio-2.x",
-      "url": "https://github.com/jatmn/Yuoki-Factorio-2.x",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
-      "stargazerCount": 1,
-      "forkCount": 4,
-      "primaryLanguage": {
-        "name": "Lua",
-        "color": "#000080"
-      },
-      "updatedAt": "2026-10-08T17:19:46Z",
-      "contributionCounts": {
-        "commits": 0,
-        "pullRequests": 5
-      }
-    },
-    {
-      "name": "yuoki-quinityn",
-      "nameWithOwner": "jatmn/yuoki-quinityn",
-      "url": "https://github.com/jatmn/yuoki-quinityn",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
-      "stargazerCount": 0,
-      "forkCount": 0,
-      "primaryLanguage": {
-        "name": "Lua",
-        "color": "#000080"
-      },
-      "updatedAt": "2026-10-08T14:55:23Z",
-      "contributionCounts": {
-        "commits": 28,
-        "pullRequests": 11
-      }
-    },
-    {
-      "name": "CuraEngine",
-      "nameWithOwner": "Ultimaker/CuraEngine",
-      "url": "https://github.com/Ultimaker/CuraEngine",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/499557?s=80&v=4",
-      "stargazerCount": 1857,
-      "forkCount": 932,
-      "primaryLanguage": {
-        "name": "C++",
-        "color": "#f34b7d"
-      },
-      "updatedAt": "2026-10-08T09:45:02Z",
-      "contributionCounts": {
-        "commits": 0,
-        "pullRequests": 12
-      }
-    },
-    {
-      "name": "zero",
-      "nameWithOwner": "Twigpine/zero",
-      "url": "https://github.com/Twigpine/zero",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 1697,
-      "forkCount": 197,
-      "primaryLanguage": {
-        "name": "Go",
-        "color": "#00ADD8"
-      },
-      "updatedAt": "2026-10-07T15:23:35Z",
-      "contributionCounts": {
-        "commits": 2,
-        "pullRequests": 7
-      }
-    },
-    {
       "name": "codemod",
       "nameWithOwner": "pnpm/codemod",
       "url": "https://github.com/pnpm/codemod",
@@ -705,23 +790,6 @@
       "contributionCounts": {
         "commits": 0,
         "pullRequests": 1
-      }
-    },
-    {
-      "name": "neon-convoy",
-      "nameWithOwner": "jatmn/neon-convoy",
-      "url": "https://github.com/jatmn/neon-convoy",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
-      "stargazerCount": 0,
-      "forkCount": 0,
-      "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "updatedAt": "2026-09-30T00:29:53Z",
-      "contributionCounts": {
-        "commits": 24,
-        "pullRequests": 7
       }
     },
     {
@@ -759,23 +827,6 @@
       }
     },
     {
-      "name": "Factorio-Stone-Ammo",
-      "nameWithOwner": "jatmn/Factorio-Stone-Ammo",
-      "url": "https://github.com/jatmn/Factorio-Stone-Ammo",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
-      "stargazerCount": 0,
-      "forkCount": 0,
-      "primaryLanguage": {
-        "name": "Lua",
-        "color": "#000080"
-      },
-      "updatedAt": "2026-02-14T04:11:54Z",
-      "contributionCounts": {
-        "commits": 1,
-        "pullRequests": 0
-      }
-    },
-    {
       "name": "YIR-Yuoki-Industries-Railroads-2.0",
       "nameWithOwner": "jatmn/YIR-Yuoki-Industries-Railroads-2.0",
       "url": "https://github.com/jatmn/YIR-Yuoki-Industries-Railroads-2.0",
@@ -789,57 +840,6 @@
       "updatedAt": "2026-02-14T03:37:06Z",
       "contributionCounts": {
         "commits": 2,
-        "pullRequests": 0
-      }
-    },
-    {
-      "name": "YIR-Americans-2.0",
-      "nameWithOwner": "jatmn/YIR-Americans-2.0",
-      "url": "https://github.com/jatmn/YIR-Americans-2.0",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
-      "stargazerCount": 0,
-      "forkCount": 1,
-      "primaryLanguage": {
-        "name": "Lua",
-        "color": "#000080"
-      },
-      "updatedAt": "2026-02-14T03:36:12Z",
-      "contributionCounts": {
-        "commits": 2,
-        "pullRequests": 0
-      }
-    },
-    {
-      "name": "YIR-Uranium-Power-Trains-2.0",
-      "nameWithOwner": "jatmn/YIR-Uranium-Power-Trains-2.0",
-      "url": "https://github.com/jatmn/YIR-Uranium-Power-Trains-2.0",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
-      "stargazerCount": 0,
-      "forkCount": 1,
-      "primaryLanguage": {
-        "name": "Lua",
-        "color": "#000080"
-      },
-      "updatedAt": "2026-02-14T03:35:06Z",
-      "contributionCounts": {
-        "commits": 2,
-        "pullRequests": 0
-      }
-    },
-    {
-      "name": "promethium-asteroid-stacking",
-      "nameWithOwner": "jatmn/promethium-asteroid-stacking",
-      "url": "https://github.com/jatmn/promethium-asteroid-stacking",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
-      "stargazerCount": 0,
-      "forkCount": 0,
-      "primaryLanguage": {
-        "name": "Lua",
-        "color": "#000080"
-      },
-      "updatedAt": "2025-11-03T15:24:35Z",
-      "contributionCounts": {
-        "commits": 3,
         "pullRequests": 0
       }
     }
