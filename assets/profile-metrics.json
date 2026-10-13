@@ -5,42 +5,35 @@
   "websiteUrl": "http://jatmn.dev",
   "followers": 28,
   "following": 10,
-  "publicRepos": 31,
-  "updatedAt": "2026-10-12T21:43:15.808Z",
+  "publicRepos": 33,
+  "updatedAt": "2026-10-13T19:51:10.445Z",
   "privacy": {
     "contributionTotalsMayIncludePrivateActivity": true,
     "repositoryDetailsArePublicOnly": true
   },
   "contributions": {
-    "totalCommitContributions": 677,
-    "totalPullRequestContributions": 358,
-    "totalPullRequestReviewContributions": 963,
-    "totalIssueContributions": 19,
-    "totalRepositoriesWithContributedCommits": 22
+    "totalCommitContributions": 890,
+    "totalPullRequestContributions": 562,
+    "totalPullRequestReviewContributions": 1013,
+    "totalIssueContributions": 98,
+    "totalRepositoriesWithContributedCommits": 23
   },
   "contributionWindows": {
     "last30Days": {
-      "totalCommitContributions": 158,
-      "totalPullRequestContributions": 104,
-      "totalPullRequestReviewContributions": 58,
-      "totalIssueContributions": 5,
-      "totalRepositoriesWithContributedCommits": 16
+      "totalCommitContributions": 293,
+      "totalPullRequestContributions": 249,
+      "totalPullRequestReviewContributions": 105,
+      "totalIssueContributions": 84,
+      "totalRepositoriesWithContributedCommits": 17
     }
   },
   "contributionTrends": {
     "last60Days": [
       {
-        "date": "2026-08-14",
-        "count": 24,
-        "commits": 3,
-        "pullRequests": 5,
-        "reviews": 17
-      },
-      {
         "date": "2026-08-15",
         "count": 21,
-        "commits": 8,
-        "pullRequests": 7,
+        "commits": 9,
+        "pullRequests": 8,
         "reviews": 18
       },
       {
@@ -158,36 +151,36 @@
       {
         "date": "2026-09-01",
         "count": 31,
-        "commits": 10,
-        "pullRequests": 7,
+        "commits": 11,
+        "pullRequests": 9,
         "reviews": 24
       },
       {
         "date": "2026-09-02",
         "count": 26,
-        "commits": 3,
-        "pullRequests": 3,
+        "commits": 9,
+        "pullRequests": 7,
         "reviews": 28
       },
       {
         "date": "2026-09-03",
         "count": 16,
-        "commits": 3,
-        "pullRequests": 2,
+        "commits": 7,
+        "pullRequests": 6,
         "reviews": 11
       },
       {
         "date": "2026-09-04",
-        "count": 35,
-        "commits": 1,
-        "pullRequests": 3,
-        "reviews": 17
+        "count": 36,
+        "commits": 7,
+        "pullRequests": 10,
+        "reviews": 18
       },
       {
         "date": "2026-09-05",
         "count": 20,
-        "commits": 6,
-        "pullRequests": 1,
+        "commits": 9,
+        "pullRequests": 3,
         "reviews": 22
       },
       {
@@ -200,36 +193,36 @@
       {
         "date": "2026-09-07",
         "count": 26,
-        "commits": 0,
-        "pullRequests": 0,
+        "commits": 5,
+        "pullRequests": 6,
         "reviews": 34
       },
       {
         "date": "2026-09-08",
         "count": 22,
-        "commits": 1,
-        "pullRequests": 2,
+        "commits": 7,
+        "pullRequests": 8,
         "reviews": 16
       },
       {
         "date": "2026-09-09",
         "count": 10,
-        "commits": 0,
-        "pullRequests": 0,
+        "commits": 2,
+        "pullRequests": 2,
         "reviews": 12
       },
       {
         "date": "2026-09-10",
         "count": 23,
-        "commits": 0,
-        "pullRequests": 0,
+        "commits": 8,
+        "pullRequests": 8,
         "reviews": 12
       },
       {
         "date": "2026-09-11",
         "count": 34,
-        "commits": 2,
-        "pullRequests": 0,
+        "commits": 9,
+        "pullRequests": 7,
         "reviews": 24
       },
       {
@@ -242,169 +235,169 @@
       {
         "date": "2026-09-13",
         "count": 10,
-        "commits": 1,
-        "pullRequests": 1,
+        "commits": 4,
+        "pullRequests": 4,
         "reviews": 10
       },
       {
         "date": "2026-09-14",
         "count": 4,
-        "commits": 1,
-        "pullRequests": 1,
+        "commits": 2,
+        "pullRequests": 2,
         "reviews": 0
       },
       {
         "date": "2026-09-15",
         "count": 8,
-        "commits": 1,
-        "pullRequests": 1,
+        "commits": 4,
+        "pullRequests": 4,
         "reviews": 0
       },
       {
         "date": "2026-09-16",
         "count": 4,
-        "commits": 0,
-        "pullRequests": 0,
+        "commits": 2,
+        "pullRequests": 2,
         "reviews": 0
       },
       {
         "date": "2026-09-17",
         "count": 6,
-        "commits": 0,
-        "pullRequests": 0,
+        "commits": 3,
+        "pullRequests": 3,
         "reviews": 0
       },
       {
         "date": "2026-09-18",
         "count": 67,
-        "commits": 19,
-        "pullRequests": 3,
+        "commits": 25,
+        "pullRequests": 8,
         "reviews": 0
       },
       {
         "date": "2026-09-19",
         "count": 34,
-        "commits": 5,
-        "pullRequests": 4,
+        "commits": 7,
+        "pullRequests": 7,
         "reviews": 29
       },
       {
         "date": "2026-09-20",
         "count": 7,
-        "commits": 4,
-        "pullRequests": 0,
+        "commits": 6,
+        "pullRequests": 1,
         "reviews": 3
       },
       {
         "date": "2026-09-21",
         "count": 35,
-        "commits": 11,
-        "pullRequests": 3,
+        "commits": 15,
+        "pullRequests": 8,
         "reviews": 12
       },
       {
         "date": "2026-09-22",
         "count": 50,
-        "commits": 6,
-        "pullRequests": 2,
+        "commits": 15,
+        "pullRequests": 11,
         "reviews": 11
       },
       {
         "date": "2026-09-23",
         "count": 6,
-        "commits": 0,
-        "pullRequests": 0,
+        "commits": 3,
+        "pullRequests": 2,
         "reviews": 3
       },
       {
         "date": "2026-09-24",
         "count": 30,
-        "commits": 0,
-        "pullRequests": 0,
+        "commits": 9,
+        "pullRequests": 11,
         "reviews": 4
       },
       {
         "date": "2026-09-25",
         "count": 26,
-        "commits": 6,
-        "pullRequests": 7,
+        "commits": 10,
+        "pullRequests": 11,
         "reviews": 0
       },
       {
         "date": "2026-09-26",
         "count": 24,
-        "commits": 1,
+        "commits": 2,
         "pullRequests": 1,
         "reviews": 13
       },
       {
         "date": "2026-09-27",
         "count": 12,
-        "commits": 1,
-        "pullRequests": 0,
+        "commits": 3,
+        "pullRequests": 3,
         "reviews": 9
       },
       {
         "date": "2026-09-28",
         "count": 43,
-        "commits": 4,
-        "pullRequests": 12,
+        "commits": 8,
+        "pullRequests": 32,
         "reviews": 3
       },
       {
         "date": "2026-09-29",
         "count": 49,
-        "commits": 25,
+        "commits": 33,
         "pullRequests": 12,
         "reviews": 0
       },
       {
         "date": "2026-09-30",
         "count": 10,
-        "commits": 0,
+        "commits": 6,
         "pullRequests": 0,
         "reviews": 0
       },
       {
         "date": "2026-10-01",
         "count": 14,
-        "commits": 0,
-        "pullRequests": 0,
+        "commits": 2,
+        "pullRequests": 2,
         "reviews": 0
       },
       {
         "date": "2026-10-02",
         "count": 93,
-        "commits": 0,
-        "pullRequests": 0,
-        "reviews": 1
+        "commits": 2,
+        "pullRequests": 1,
+        "reviews": 5
       },
       {
         "date": "2026-10-03",
         "count": 22,
         "commits": 2,
-        "pullRequests": 1,
+        "pullRequests": 4,
         "reviews": 0
       },
       {
         "date": "2026-10-04",
         "count": 40,
-        "commits": 0,
-        "pullRequests": 2,
-        "reviews": 0
+        "commits": 9,
+        "pullRequests": 8,
+        "reviews": 9
       },
       {
         "date": "2026-10-05",
         "count": 22,
-        "commits": 1,
-        "pullRequests": 2,
-        "reviews": 1
+        "commits": 6,
+        "pullRequests": 9,
+        "reviews": 3
       },
       {
         "date": "2026-10-06",
         "count": 5,
-        "commits": 2,
-        "pullRequests": 0,
+        "commits": 4,
+        "pullRequests": 1,
         "reviews": 0
       },
       {
@@ -417,48 +410,48 @@
       {
         "date": "2026-10-08",
         "count": 82,
-        "commits": 30,
-        "pullRequests": 30,
+        "commits": 35,
+        "pullRequests": 37,
         "reviews": 0
       },
       {
         "date": "2026-10-09",
         "count": 45,
-        "commits": 10,
-        "pullRequests": 8,
-        "reviews": 3
+        "commits": 14,
+        "pullRequests": 13,
+        "reviews": 10
       },
       {
         "date": "2026-10-10",
         "count": 59,
-        "commits": 2,
-        "pullRequests": 1,
-        "reviews": 0
+        "commits": 9,
+        "pullRequests": 8,
+        "reviews": 11
       },
       {
         "date": "2026-10-11",
         "count": 51,
-        "commits": 2,
-        "pullRequests": 2,
-        "reviews": 0
+        "commits": 15,
+        "pullRequests": 13,
+        "reviews": 8
       },
       {
         "date": "2026-10-12",
-        "count": 13,
-        "commits": 0,
-        "pullRequests": 0,
+        "count": 27,
+        "commits": 11,
+        "pullRequests": 13,
         "reviews": 0
+      },
+      {
+        "date": "2026-10-13",
+        "count": 36,
+        "commits": 7,
+        "pullRequests": 11,
+        "reviews": 11
       }
     ],
     "last7Days": [
       {
-        "date": "2026-10-06",
-        "count": 5,
-        "commits": 2,
-        "pullRequests": 0,
-        "reviews": 0
-      },
-      {
         "date": "2026-10-07",
         "count": 38,
         "commits": 24,
@@ -468,90 +461,63 @@
       {
         "date": "2026-10-08",
         "count": 82,
-        "commits": 30,
-        "pullRequests": 30,
+        "commits": 35,
+        "pullRequests": 37,
         "reviews": 0
       },
       {
         "date": "2026-10-09",
         "count": 45,
-        "commits": 10,
-        "pullRequests": 8,
-        "reviews": 3
+        "commits": 14,
+        "pullRequests": 13,
+        "reviews": 10
       },
       {
         "date": "2026-10-10",
         "count": 59,
-        "commits": 2,
-        "pullRequests": 1,
-        "reviews": 0
+        "commits": 9,
+        "pullRequests": 8,
+        "reviews": 11
       },
       {
         "date": "2026-10-11",
         "count": 51,
-        "commits": 2,
-        "pullRequests": 2,
-        "reviews": 0
+        "commits": 15,
+        "pullRequests": 13,
+        "reviews": 8
       },
       {
         "date": "2026-10-12",
-        "count": 13,
-        "commits": 0,
-        "pullRequests": 0,
+        "count": 27,
+        "commits": 11,
+        "pullRequests": 13,
         "reviews": 0
+      },
+      {
+        "date": "2026-10-13",
+        "count": 36,
+        "commits": 7,
+        "pullRequests": 11,
+        "reviews": 11
       }
     ]
   },
   "recentPublicRepos": [
     {
-      "name": "openbot",
-      "nameWithOwner": "nightly-labs/openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/100160810?s=80&v=4",
-      "stargazerCount": 530,
-      "forkCount": 84,
-      "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "updatedAt": "2026-10-12T21:34:41Z",
-      "contributionCounts": {
-        "commits": 1,
-        "pullRequests": 2
-      }
-    },
-    {
-      "name": "OpenMausBot",
-      "nameWithOwner": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/46266943?s=80&u=86f0b5eeb3763a41da307bcff2b53c7017992713&v=4",
-      "stargazerCount": 4601,
-      "forkCount": 783,
-      "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "updatedAt": "2026-10-12T21:33:47Z",
-      "contributionCounts": {
-        "commits": 0,
-        "pullRequests": 1
-      }
-    },
-    {
-      "name": "pnpm",
-      "nameWithOwner": "pnpm/pnpm",
-      "url": "https://github.com/pnpm/pnpm",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/21320719?s=80&v=4",
-      "stargazerCount": 36787,
-      "forkCount": 1922,
+      "name": "Cap",
+      "nameWithOwner": "CapSoftware/Cap",
+      "url": "https://github.com/CapSoftware/Cap",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/151241629?s=80&v=4",
+      "stargazerCount": 23275,
+      "forkCount": 2044,
       "primaryLanguage": {
         "name": "Rust",
         "color": "#dea584"
       },
-      "updatedAt": "2026-10-12T21:05:24Z",
+      "updatedAt": "2026-10-13T19:44:17Z",
       "contributionCounts": {
-        "commits": 4,
-        "pullRequests": 4
+        "commits": 0,
+        "pullRequests": 3
       }
     },
     {
@@ -559,13 +525,13 @@
       "nameWithOwner": "Twigpine/openclaude",
       "url": "https://github.com/Twigpine/openclaude",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 33777,
-      "forkCount": 9110,
+      "stargazerCount": 33826,
+      "forkCount": 9115,
       "primaryLanguage": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-10-12T20:55:05Z",
+      "updatedAt": "2026-10-13T19:36:59Z",
       "contributionCounts": {
         "commits": 150,
         "pullRequests": 145
@@ -576,16 +542,101 @@
       "nameWithOwner": "Twigpine/zero",
       "url": "https://github.com/Twigpine/zero",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 1700,
-      "forkCount": 198,
+      "stargazerCount": 1721,
+      "forkCount": 200,
       "primaryLanguage": {
         "name": "Go",
         "color": "#00ADD8"
       },
-      "updatedAt": "2026-10-12T16:47:14Z",
+      "updatedAt": "2026-10-13T19:30:12Z",
       "contributionCounts": {
         "commits": 2,
         "pullRequests": 7
+      }
+    },
+    {
+      "name": "OpenMausBot",
+      "nameWithOwner": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/46266943?s=80&u=86f0b5eeb3763a41da307bcff2b53c7017992713&v=4",
+      "stargazerCount": 4766,
+      "forkCount": 800,
+      "primaryLanguage": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "updatedAt": "2026-10-13T19:26:39Z",
+      "contributionCounts": {
+        "commits": 0,
+        "pullRequests": 1
+      }
+    },
+    {
+      "name": "pnpm",
+      "nameWithOwner": "pnpm/pnpm",
+      "url": "https://github.com/pnpm/pnpm",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/21320719?s=80&v=4",
+      "stargazerCount": 36801,
+      "forkCount": 1927,
+      "primaryLanguage": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "updatedAt": "2026-10-13T18:59:37Z",
+      "contributionCounts": {
+        "commits": 4,
+        "pullRequests": 4
+      }
+    },
+    {
+      "name": "openbot",
+      "nameWithOwner": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/100160810?s=80&v=4",
+      "stargazerCount": 549,
+      "forkCount": 89,
+      "primaryLanguage": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "updatedAt": "2026-10-13T18:44:29Z",
+      "contributionCounts": {
+        "commits": 1,
+        "pullRequests": 2
+      }
+    },
+    {
+      "name": "jModGuard",
+      "nameWithOwner": "jatmn/jModGuard",
+      "url": "https://github.com/jatmn/jModGuard",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "primaryLanguage": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "updatedAt": "2026-10-13T17:46:12Z",
+      "contributionCounts": {
+        "commits": 213,
+        "pullRequests": 201
+      }
+    },
+    {
+      "name": "CuraEngine",
+      "nameWithOwner": "Ultimaker/CuraEngine",
+      "url": "https://github.com/Ultimaker/CuraEngine",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/499557?s=80&v=4",
+      "stargazerCount": 1858,
+      "forkCount": 934,
+      "primaryLanguage": {
+        "name": "C++",
+        "color": "#f34b7d"
+      },
+      "updatedAt": "2026-10-13T01:20:37Z",
+      "contributionCounts": {
+        "commits": 0,
+        "pullRequests": 12
       }
     },
     {
@@ -671,23 +722,6 @@
       "contributionCounts": {
         "commits": 37,
         "pullRequests": 20
-      }
-    },
-    {
-      "name": "CuraEngine",
-      "nameWithOwner": "Ultimaker/CuraEngine",
-      "url": "https://github.com/Ultimaker/CuraEngine",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/499557?s=80&v=4",
-      "stargazerCount": 1857,
-      "forkCount": 934,
-      "primaryLanguage": {
-        "name": "C++",
-        "color": "#f34b7d"
-      },
-      "updatedAt": "2026-10-09T07:21:47Z",
-      "contributionCounts": {
-        "commits": 0,
-        "pullRequests": 12
       }
     },
     {
@@ -807,40 +841,6 @@
       "contributionCounts": {
         "commits": 0,
         "pullRequests": 7
-      }
-    },
-    {
-      "name": "Deneb",
-      "nameWithOwner": "jatmn/Deneb",
-      "url": "https://github.com/jatmn/Deneb",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12479882?s=80&u=0aeeb4743dd9d0bce8cb88cb4905b0146d4c713c&v=4",
-      "stargazerCount": 2,
-      "forkCount": 0,
-      "primaryLanguage": {
-        "name": "C",
-        "color": "#555555"
-      },
-      "updatedAt": "2026-10-08T17:52:07Z",
-      "contributionCounts": {
-        "commits": 287,
-        "pullRequests": 18
-      }
-    },
-    {
-      "name": "codemod",
-      "nameWithOwner": "pnpm/codemod",
-      "url": "https://github.com/pnpm/codemod",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/21320719?s=80&v=4",
-      "stargazerCount": 16,
-      "forkCount": 7,
-      "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "updatedAt": "2026-10-06T13:21:43Z",
-      "contributionCounts": {
-        "commits": 0,
-        "pullRequests": 1
       }
     }
   ]
