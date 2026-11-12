@@ -6,36 +6,29 @@
   "followers": 31,
   "following": 12,
   "publicRepos": 35,
-  "updatedAt": "2026-11-11T13:18:29.459Z",
+  "updatedAt": "2026-11-12T13:18:33.040Z",
   "privacy": {
     "contributionTotalsMayIncludePrivateActivity": true,
     "repositoryDetailsArePublicOnly": true
   },
   "contributions": {
-    "totalCommitContributions": 1416,
-    "totalPullRequestContributions": 1082,
-    "totalPullRequestReviewContributions": 1315,
-    "totalIssueContributions": 221,
+    "totalCommitContributions": 1449,
+    "totalPullRequestContributions": 1116,
+    "totalPullRequestReviewContributions": 1321,
+    "totalIssueContributions": 246,
     "totalRepositoriesWithContributedCommits": 29
   },
   "contributionWindows": {
     "last30Days": {
-      "totalCommitContributions": 536,
-      "totalPullRequestContributions": 531,
-      "totalPullRequestReviewContributions": 330,
-      "totalIssueContributions": 129,
+      "totalCommitContributions": 543,
+      "totalPullRequestContributions": 534,
+      "totalPullRequestReviewContributions": 323,
+      "totalIssueContributions": 140,
       "totalRepositoriesWithContributedCommits": 23
     }
   },
   "contributionTrends": {
     "last60Days": [
-      {
-        "date": "2026-09-13",
-        "count": 10,
-        "commits": 4,
-        "pullRequests": 4,
-        "reviews": 10
-      },
       {
         "date": "2026-09-14",
         "count": 4,
@@ -430,7 +423,7 @@
       },
       {
         "date": "2026-11-09",
-        "count": 96,
+        "count": 95,
         "commits": 17,
         "pullRequests": 24,
         "reviews": 27
@@ -444,20 +437,20 @@
       },
       {
         "date": "2026-11-11",
-        "count": 5,
-        "commits": 0,
-        "pullRequests": 0,
-        "reviews": 3
+        "count": 110,
+        "commits": 32,
+        "pullRequests": 31,
+        "reviews": 12
+      },
+      {
+        "date": "2026-11-12",
+        "count": 6,
+        "commits": 1,
+        "pullRequests": 3,
+        "reviews": 2
       }
     ],
     "last7Days": [
-      {
-        "date": "2026-11-05",
-        "count": 41,
-        "commits": 17,
-        "pullRequests": 13,
-        "reviews": 5
-      },
       {
         "date": "2026-11-06",
         "count": 64,
@@ -481,7 +474,7 @@
       },
       {
         "date": "2026-11-09",
-        "count": 96,
+        "count": 95,
         "commits": 17,
         "pullRequests": 24,
         "reviews": 27
@@ -495,46 +488,53 @@
       },
       {
         "date": "2026-11-11",
-        "count": 5,
-        "commits": 0,
-        "pullRequests": 0,
-        "reviews": 3
+        "count": 110,
+        "commits": 32,
+        "pullRequests": 31,
+        "reviews": 12
+      },
+      {
+        "date": "2026-11-12",
+        "count": 6,
+        "commits": 1,
+        "pullRequests": 3,
+        "reviews": 2
       }
     ]
   },
   "recentPublicRepos": [
     {
-      "name": "openbot",
-      "nameWithOwner": "nightly-labs/openbot",
-      "url": "https://github.com/nightly-labs/openbot",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/100160810?s=80&v=4",
-      "stargazerCount": 6976,
-      "forkCount": 705,
-      "primaryLanguage": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "updatedAt": "2026-11-11T13:17:21Z",
-      "contributionCounts": {
-        "commits": 1,
-        "pullRequests": 2
-      }
-    },
-    {
       "name": "OpenMausBot",
       "nameWithOwner": "milind-soni/OpenMausBot",
       "url": "https://github.com/milind-soni/OpenMausBot",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/46266943?s=80&u=86f0b5eeb3763a41da307bcff2b53c7017992713&v=4",
-      "stargazerCount": 21031,
-      "forkCount": 2927,
+      "stargazerCount": 21552,
+      "forkCount": 3000,
       "primaryLanguage": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-11-11T13:13:54Z",
+      "updatedAt": "2026-11-12T13:17:02Z",
       "contributionCounts": {
         "commits": 1,
         "pullRequests": 1
+      }
+    },
+    {
+      "name": "openbot",
+      "nameWithOwner": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/100160810?s=80&v=4",
+      "stargazerCount": 7203,
+      "forkCount": 729,
+      "primaryLanguage": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "updatedAt": "2026-11-12T13:15:43Z",
+      "contributionCounts": {
+        "commits": 1,
+        "pullRequests": 2
       }
     },
     {
@@ -542,13 +542,13 @@
       "nameWithOwner": "CapSoftware/Cap",
       "url": "https://github.com/CapSoftware/Cap",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/151241629?s=80&v=4",
-      "stargazerCount": 24842,
-      "forkCount": 2320,
+      "stargazerCount": 24911,
+      "forkCount": 2338,
       "primaryLanguage": {
         "name": "Rust",
         "color": "#dea584"
       },
-      "updatedAt": "2026-11-11T12:59:23Z",
+      "updatedAt": "2026-11-12T13:12:10Z",
       "contributionCounts": {
         "commits": 7,
         "pullRequests": 7
@@ -559,16 +559,16 @@
       "nameWithOwner": "Twigpine/openclaude",
       "url": "https://github.com/Twigpine/openclaude",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 34331,
-      "forkCount": 9127,
+      "stargazerCount": 34343,
+      "forkCount": 9124,
       "primaryLanguage": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "updatedAt": "2026-11-11T12:58:22Z",
+      "updatedAt": "2026-11-12T13:04:16Z",
       "contributionCounts": {
-        "commits": 316,
-        "pullRequests": 306
+        "commits": 318,
+        "pullRequests": 308
       }
     },
     {
@@ -576,13 +576,13 @@
       "nameWithOwner": "pnpm/pnpm",
       "url": "https://github.com/pnpm/pnpm",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/21320719?s=80&v=4",
-      "stargazerCount": 37059,
-      "forkCount": 1985,
+      "stargazerCount": 37065,
+      "forkCount": 1987,
       "primaryLanguage": {
         "name": "Rust",
         "color": "#dea584"
       },
-      "updatedAt": "2026-11-11T11:23:44Z",
+      "updatedAt": "2026-11-12T12:58:22Z",
       "contributionCounts": {
         "commits": 6,
         "pullRequests": 7
@@ -599,27 +599,10 @@
         "name": "Rust",
         "color": "#dea584"
       },
-      "updatedAt": "2026-11-11T05:22:53Z",
+      "updatedAt": "2026-11-12T05:30:42Z",
       "contributionCounts": {
-        "commits": 354,
-        "pullRequests": 338
-      }
-    },
-    {
-      "name": "node",
-      "nameWithOwner": "Twigpine/node",
-      "url": "https://github.com/Twigpine/node",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 93,
-      "forkCount": 46,
-      "primaryLanguage": {
-        "name": "Rust",
-        "color": "#dea584"
-      },
-      "updatedAt": "2026-11-11T03:49:34Z",
-      "contributionCounts": {
-        "commits": 7,
-        "pullRequests": 10
+        "commits": 384,
+        "pullRequests": 369
       }
     },
     {
@@ -627,15 +610,15 @@
       "nameWithOwner": "Twigpine/zero",
       "url": "https://github.com/Twigpine/zero",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
-      "stargazerCount": 1779,
+      "stargazerCount": 1781,
       "forkCount": 209,
       "primaryLanguage": {
         "name": "Go",
         "color": "#00ADD8"
       },
-      "updatedAt": "2026-11-11T03:11:51Z",
+      "updatedAt": "2026-11-12T02:25:09Z",
       "contributionCounts": {
-        "commits": 11,
+        "commits": 12,
         "pullRequests": 20
       }
     },
@@ -650,10 +633,27 @@
         "name": "C++",
         "color": "#f34b7d"
       },
-      "updatedAt": "2026-11-10T10:23:19Z",
+      "updatedAt": "2026-11-12T00:32:08Z",
       "contributionCounts": {
         "commits": 0,
         "pullRequests": 12
+      }
+    },
+    {
+      "name": "node",
+      "nameWithOwner": "Twigpine/node",
+      "url": "https://github.com/Twigpine/node",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?s=80&v=4",
+      "stargazerCount": 93,
+      "forkCount": 46,
+      "primaryLanguage": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "updatedAt": "2026-11-11T21:56:00Z",
+      "contributionCounts": {
+        "commits": 7,
+        "pullRequests": 10
       }
     },
     {
@@ -772,7 +772,7 @@
       "updatedAt": "2026-11-08T00:26:48Z",
       "contributionCounts": {
         "commits": 27,
-        "pullRequests": 8
+        "pullRequests": 9
       }
     },
     {
